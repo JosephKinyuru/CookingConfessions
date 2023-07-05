@@ -1,1159 +1,1141 @@
 {
-    "recipes": [
-      {
-        "id": 1,
-        "name": "Appetizers",
-        "foods": [
-            {
-                "id":1,
-                "name": "Spinach and Artichoke Dip",
-                "picture": "spinach_artichoke_dip.jpg",
-                "description": "A creamy and flavorful dip made with spinach, artichokes, and cheese. Perfect for dipping tortilla chips or bread.",
-                "ingredients": [
-                  "1 cup frozen spinach, thawed and drained",
-                  "1 cup canned artichoke hearts, drained and chopped",
-                  "1/2 cup mayonnaise",
-                  "1/2 cup sour cream",
-                  "1 cup shredded mozzarella cheese",
-                  "1/4 cup grated Parmesan cheese",
-                  "2 cloves garlic, minced",
-                  "1/2 teaspoon salt",
-                  "1/4 teaspoon black pepper"
-                ],
-                "directions": [
-                  "Preheat the oven to 350°F (175°C).",
-                  "In a mixing bowl, combine all the ingredients and stir until well combined.",
-                  "Transfer the mixture to a baking dish and smooth the top.",
-                  "Bake for 25-30 minutes or until hot and bubbly.",
-                  "Serve warm with tortilla chips or bread."
-                ],
-                "comments": [
-                  {
-                    "name": "Sarah",
-                    "comment": "One of my all-time favorite pasta dishes!"
-                  },
-                  {
-                    "name": "Michael",
-                    "comment": "Creamy and flavorful, loved it!"
-                  },
-                  {
-                    "name": "Emily",
-                    "comment": "The sauce is rich and velvety. Delicious!"
-                  }
-                ]
-              } ,
+    "appetizers":[
+        {
+            "id":1,
+            "name": "Spinach and Artichoke Dip",
+            "picture": "spinach_artichoke_dip.jpg",
+            "description": "A creamy and flavorful dip made with spinach, artichokes, and cheese. Perfect for dipping tortilla chips or bread.",
+            "ingredients": [
+              "1 cup frozen spinach, thawed and drained",
+              "1 cup canned artichoke hearts, drained and chopped",
+              "1/2 cup mayonnaise",
+              "1/2 cup sour cream",
+              "1 cup shredded mozzarella cheese",
+              "1/4 cup grated Parmesan cheese",
+              "2 cloves garlic, minced",
+              "1/2 teaspoon salt",
+              "1/4 teaspoon black pepper"
+            ],
+            "directions": [
+              "Preheat the oven to 350°F (175°C).",
+              "In a mixing bowl, combine all the ingredients and stir until well combined.",
+              "Transfer the mixture to a baking dish and smooth the top.",
+              "Bake for 25-30 minutes or until hot and bubbly.",
+              "Serve warm with tortilla chips or bread."
+            ],
+            "comments": [
               {
-                "id":2,
-                "name": "Caprese Skewers",
-                "picture": "caprese_skewers.jpg",
-                "description": "A refreshing and simple appetizer featuring cherry tomatoes, fresh mozzarella, and basil leaves, drizzled with balsamic glaze.",
-                "ingredients": [
-                  "16 cherry tomatoes",
-                  "16 small fresh mozzarella balls",
-                  "16 fresh basil leaves",
-                  "Balsamic glaze",
-                  "Salt and pepper to taste",
-                  "Wooden skewers"
-                ],
-                "directions": [
-                  "Thread a cherry tomato, a mozzarella ball, and a basil leaf onto each skewer.",
-                  "Arrange the skewers on a platter.",
-                  "Drizzle with balsamic glaze.",
-                  "Season with salt and pepper to taste.",
-                  "Serve and enjoy!"
-                ],
-                "comments": [
-                  {
-                    "name": "Jennifer",
-                    "comment": "These skewers are always a hit at parties!"
-                  },
-                  {
-                    "name": "Mike",
-                    "comment": "Simple and delicious. Love the combination of flavors."
-                  },
-                  {
-                    "name": "Emily",
-                    "comment": "Perfect appetizer for a summer gathering."
-                  }
-                ]
+                "name": "Sarah",
+                "comment": "One of my all-time favorite pasta dishes!"
               },
               {
-                "id":3,
-                "name": "Bruschetta",
-                "picture": "bruschetta.jpg",
-                "description": "A classic Italian appetizer featuring grilled bread topped with fresh tomatoes, basil, garlic, and olive oil.",
-                "ingredients": [
-                  "Baguette or Italian bread",
-                  "4-5 ripe tomatoes, diced",
-                  "Fresh basil leaves, chopped",
-                  "2 cloves garlic, minced",
-                  "Extra-virgin olive oil",
-                 "Salt and pepper to taste"
-                ],
-                "directions": [
-                  "Preheat the grill or oven to medium-high heat.",
-                  "Slice the baguette or Italian bread into 1/2-inch thick slices.",
-                  "Grill or toast the bread slices until lightly golden on both sides.",
-                  "In a bowl, combine the diced tomatoes, chopped basil, minced garlic, and drizzle with olive oil. Season with salt and pepper to taste.",
-                  "Top each bread slice with the tomato mixture.",
-                  "Serve immediately and enjoy!"
-                ],
-                "comments": [
-                  {
-                    "name": "Amy",
-                    "comment": "Simple and delicious. Perfect appetizer for any occasion."
-                  },
-                  {
-                    "name": "Mark",
-                    "comment": "The combination of flavors is amazing. Loved it!"
-                  },
-                  {
-                    "name": "Laura",
-                    "comment": "A refreshing and light appetizer. Will definitely make it again."
-                  }
-                ]
+                "name": "Michael",
+                "comment": "Creamy and flavorful, loved it!"
               },
               {
-                "id":4,
-                "name": "Chicken Satay",
-                "picture": "chicken_satay.jpg",
-                "description": "Tender chicken skewers marinated in a flavorful blend of spices, grilled to perfection, and served with a peanut dipping sauce.",
-                "ingredients": [
-                  "1 lb boneless, skinless chicken breasts, cut into thin strips",
-                  "2 tablespoons soy sauce",
-                  "2 tablespoons lime juice",
-                  "2 tablespoons honey",
-                  "1 tablespoon curry powder",
-                  "1 clove garlic, minced",
-                  "Wooden skewers",
-                  "Peanut sauce for dipping"
-                ],
-                "directions": [
-                  "In a bowl, combine the soy sauce, lime juice, honey, curry powder, and minced garlic to make the marinade.",
-                  "Add the chicken strips to the marinade and toss to coat. Let it marinate for at least 30 minutes.",
-                  "Preheat the grill or grill pan over medium-high heat.",
-                  "Thread the marinated chicken strips onto wooden skewers.",
-                  "Grill the chicken skewers for about 4-5 minutes per side until cooked through and slightly charred.",
-                  "Serve the chicken satay with peanut sauce for dipping.",
-                  "Enjoy!"
-                   ],
-                "comments": [
-                  {
-                    "name": "Kevin",
-                    "comment": "These chicken skewers are so flavorful. The peanut sauce is a great accompaniment."
-                  },
-                  {
-                    "name": "Rachel",
-                    "comment": "A fantastic appetizer for parties. Always a crowd-pleaser."
-                  },
-                  {
-                    "name": "Brian",
-                    "comment": "The marinade really infuses the chicken with amazing flavors. Love it!"
-                  }
-                ]
-              },
-              {
-                "id":5,
-                "name": "Crispy Fried Calamari",
-                "picture": "fried_calamari.jpg",
-                "description": "Tender calamari rings coated in a crispy batter and deep-fried until golden brown. Served with marinara sauce or aioli.",
-                "ingredients": [
-                  "1 lb calamari rings",
-                  "1 cup all-purpose flour",
-                  "1 teaspoon paprika",
-                  "1/2 teaspoon salt",
-                  "1/4 teaspoon black pepper",
-                  "Vegetable oil for frying",
-                  "Marinara sauce or aioli for dipping"
-                 ],
-                "directions": [
-                  "In a shallow bowl, mix together the flour, paprika, salt, and black pepper.",
-                  "Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).",
-                  "Dip the calamari rings into the flour mixture, shaking off any excess.",
-                  "Carefully drop a few calamari rings into the hot oil and fry for about 2-3 minutes until golden brown and crispy.",
-                  "Remove the fried calamari with a slotted spoon and transfer to a paper towel-lined plate to drain excess oil.",
-                  "Repeat the frying process with the remaining calamari rings.",
-                  "Serve the crispy fried calamari with marinara sauce or aioli for dipping.",
-                  "Enjoy!"
-                ],
-                "comments": [
-                 {
-                     "name": "Michelle",
-                     "comment": "These calamari rings are perfectly crispy. The marinara sauce is a great match."
-                  },
-                  {
-                    "name": "Steve",
-                    "comment": "Delicious and addictive. Can't get enough of these fried calamari rings!"
-                  },
-                  {
-                    "name": "Karen",
-                    "comment": "Restaurant-quality calamari made at home. So good!"
-                  }
-                ]
-              },
-              {
-                "id":6,
-                "name": "Mozzarella Sticks",
-                "picture": "mozzarella_sticks.jpg",
-                "description": "Golden and crispy breaded mozzarella sticks with a gooey and melty cheese center. Served with marinara sauce for dipping.",
-                "ingredients": [
-                  "12 mozzarella sticks",
-                  "1 cup all-purpose flour",
-                  "2 eggs, beaten",
-                  "1 cup breadcrumbs",
-                  "1/2 teaspoon dried oregano",
-                  "1/2 teaspoon dried basil",
-                  "Vegetable oil for frying",
-                 "Marinara sauce for dipping"
-                ],
-                "directions": [
-                  "Place the flour, beaten eggs, and breadcrumbs mixed with dried oregano and dried basil in separate shallow bowls.",
-                  "Dip each mozzarella stick into the flour, then the beaten eggs, and finally coat it with the breadcrumb mixture, pressing gently to adhere.",
-                  "Place the coated mozzarella sticks on a baking sheet and freeze for 30 minutes.",
-                  "Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).",
-                  "Fry the mozzarella sticks in small batches for about 2-3 minutes until golden brown.",
-                  "Remove the fried mozzarella sticks with a slotted spoon and transfer to a paper towel-lined plate to drain excess oil.",
-                  "Serve the mozzarella sticks immediately with marinara sauce for dipping.",
-                  "Enjoy the melty and crispy goodness!"
-                ],
-                "comments": [
-                  {
-                    "name": "Tom",
-                    "comment": "I can't resist these mozzarella sticks. Perfectly crispy on the outside and ooey-gooey on the inside."
-                  },
-                  {
-                    "name": "Megan",
-                    "comment": "The ultimate comfort food. These mozzarella sticks are always a crowd favorite."
-                  },
-                  {
-                    "name": "Greg",
-                    "comment": "Delicious and addictive. I could snack on these all day!"
-                  }
-                ]
-              },
-              {
-                "id":7,
-                "name": "Guacamole",
-                "picture": "guacamole.jpg",
-                "description": "A creamy and flavorful dip made with ripe avocados, tomatoes, onions, jalapeños, lime juice, and cilantro. Served with tortilla chips.",
-                "ingredients": [
-                  "2 ripe avocados",
-                  "1 tomato, diced",
-                  "1/4 cup finely chopped onion",
-                  "1 jalapeño, seeded and minced",
-                  "Juice of 1 lime",
-                  "2 tablespoons chopped fresh cilantro",
-                  "Salt and pepper to taste",
-                  "Tortilla chips for serving"
-                ],
-                "directions": [
-                  "Cut the avocados in half, remove the pits, and scoop the flesh into a bowl.",
-                  "Mash the avocados with a fork until smooth or leave it slightly chunky, depending on your preference.",
-                  "Add the diced tomato, chopped onion, minced jalapeño, lime juice, and chopped cilantro to the bowl. Mix well to combine.",
-                  "Season with salt and pepper to taste.",
-                  "Cover the guacamole with plastic wrap, pressing it directly against the surface to prevent browning.",
-                  "Refrigerate for at least 30 minutes to allow the flavors to meld together.",
-                  "Serve the guacamole with tortilla chips.",
-                  "Enjoy!"
-               ],
-                "comments": [
-                  {
-                    "name": "Emily",
-                    "comment": "Homemade guacamole is the best. So fresh and flavorful."
-                  },
-                  {
-                    "name": "Chris",
-                    "comment": "I could eat this guacamole every day. The perfect balance of flavors."
-                  },
-                  {
-                   "name": "Anna",
-                    "comment": "Love the added kick from the jalapeños. This guacamole is fantastic!"
-                  }
-                ]
+                "name": "Emily",
+                "comment": "The sauce is rich and velvety. Delicious!"
               }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Mains",
-        "foods": [
-            {
-                "id":1,
-                "name": "Chicken Alfredo Pasta",
-                "picture": "chicken_alfredo_pasta.jpg",
-                "description": "A classic Italian dish featuring tender chicken and creamy Alfredo sauce tossed with pasta.",
-                "ingredients": [
-                  "8 oz fettuccine pasta",
-                  "2 boneless, skinless chicken breasts, cut into strips",
-                  "2 tablespoons olive oil",
-                  "2 cloves garlic, minced",
-                  "1 cup heavy cream",
-                  "1 cup grated Parmesan cheese",
-                  "Salt and pepper to taste",
-                  "Chopped fresh parsley for garnish"
-                ],
-                "directions": [
-                  "Cook the fettuccine pasta according to package instructions. Drain and set aside.",
-                  "In a large skillet, heat the olive oil over medium-high heat.",
-                  "Add the chicken strips and cook until no longer pink, about 5-6 minutes. Remove from the skillet and set aside.",
-                  "In the same skillet, add the minced garlic and cook for 1 minute until fragrant.",
-                  "Reduce the heat to low and stir in the heavy cream and grated Parmesan cheese. Cook, stirring constantly, until the sauce thickens.",
-                  "Season with salt and pepper to taste.",
-                  "Add the cooked chicken and cooked fettuccine to the skillet, tossing well to coat the pasta with the sauce.",
-                  "Garnish with chopped fresh parsley and serve hot."
-                ],
-                "comments": [
-                  {
-                    "name": "John",
-                    "comment": "This dip is always a hit at parties!"
-                  },
-                  {
-                    "name": "Amy",
-                    "comment": "I added some diced jalapenos for an extra kick. Delicious!"
-                  },
-                  {
-                    "name": "David",
-                    "comment": "Creamy and cheesy, the perfect appetizer."
-                  }
-                ]
+            ]
+          } ,
+          {
+            "id":2,
+            "name": "Caprese Skewers",
+            "picture": "caprese_skewers.jpg",
+            "description": "A refreshing and simple appetizer featuring cherry tomatoes, fresh mozzarella, and basil leaves, drizzled with balsamic glaze.",
+            "ingredients": [
+              "16 cherry tomatoes",
+              "16 small fresh mozzarella balls",
+              "16 fresh basil leaves",
+              "Balsamic glaze",
+              "Salt and pepper to taste",
+              "Wooden skewers"
+            ],
+            "directions": [
+              "Thread a cherry tomato, a mozzarella ball, and a basil leaf onto each skewer.",
+              "Arrange the skewers on a platter.",
+              "Drizzle with balsamic glaze.",
+              "Season with salt and pepper to taste.",
+              "Serve and enjoy!"
+            ],
+            "comments": [
+              {
+                "name": "Jennifer",
+                "comment": "These skewers are always a hit at parties!"
               },
               {
-                  "id":2,
-                  "name": "Beef Stir-Fry",
-                  "picture": "beef_stir_fry.jpg",
-                  "description": "A flavorful and colorful stir-fry dish with tender beef, crisp vegetables, and a savory sauce.",
-                  "ingredients": [
-                    "1 lb beef sirloin, thinly sliced",
-                    "2 tablespoons soy sauce",
-                    "2 tablespoons oyster sauce",
-                    "1 tablespoon cornstarch",
-                    "2 tablespoons vegetable oil",
-                    "1 bell pepper, thinly sliced",
-                    "1 onion, thinly sliced",
-                    "2 cloves garlic, minced",
-                    "1 cup broccoli florets",
-                    "Salt and pepper to taste",
-                    "Cooked rice for serving"
-                  ],
-                  "directions": [
-                    "In a bowl, combine the beef slices with soy sauce, oyster sauce, and cornstarch. Set aside to marinate for 15 minutes.",
-                    "Heat the vegetable oil in a wok or large skillet over high heat.",
-                    "Add the marinated beef and stir-fry for 2-3 minutes until browned. Remove from the wok and set aside.",
-                    "In the same wok, add the bell pepper, onion, garlic, and broccoli. Stir-fry for 3-4 minutes until the vegetables are crisp-tender.",
-                    "Return the beef to the wok and toss everything together.",
-                    "Season with salt and pepper to taste.",
-                    "Serve hot over cooked rice.",
-                    "Enjoy!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "David",
-                      "comment": "This stir-fry is bursting with flavors. Loved it!"
-                    },
-                    {
-                      "name": "Samantha",
-                      "comment": "Quick and easy weeknight meal. The whole family enjoyed it."
-                    },
-                    {
-                      "name": "Robert",
-                      "comment": "Perfect balance of textures and flavors."
-                    }
-                  ]
-                },
-                {
-                        "id":3,
-                        "name": "Spaghetti Carbonara",
-                        "picture": "spaghetti_carbonara.jpg",
-                        "description": "A classic Italian pasta dish made with spaghetti, pancetta or bacon, eggs, Parmesan cheese, and black pepper.",
-                        "ingredients": [
-                          "8 oz spaghetti",
-                          "4 oz pancetta or bacon, diced",
-                          "2 cloves garlic, minced",
-                          "2 large eggs",
-                          "1/2 cup grated Parmesan cheese",
-                          "Freshly ground black pepper",
-                          "Salt to taste",
-                          "Chopped fresh parsley for garnish"
-                        ],
-                        "directions": [
-                          "Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
-                          "In a skillet, cook the pancetta or bacon until crispy. Add the minced garlic and cook for an additional minute.",
-                          "In a bowl, whisk together the eggs, grated Parmesan cheese, and a generous amount of freshly ground black pepper.",
-                          "Add the cooked spaghetti to the skillet with the pancetta or bacon and garlic. Toss to combine.",
-                          "Remove the skillet from heat and quickly pour in the egg mixture, stirring continuously to coat the spaghetti evenly. The heat of the pasta will cook the eggs.",
-                          "Season with salt to taste.",
-                          "Garnish with chopped fresh parsley and additional grated Parmesan cheese.",
-                          "Serve immediately and enjoy!"
-                        ],
-                        "comments": [
-                          {
-                            "name": "Robert",
-                            "comment": "The ultimate comfort food. This carbonara is creamy and delicious."
-                          },
-                          {
-                            "name": "Sophie",
-                            "comment": "Authentic and flavorful. Love this classic Italian pasta dish."
-                          },
-                          {
-                            "name": "David",
-                            "comment": "Perfectly balanced flavors. This spaghetti carbonara is a winner!"
-                          }
-                        ]
-                      },
-                      {
-                        "id":4,
-                        "name": "Chicken Parmesan",
-                        "picture": "chicken_parmesan.jpg",
-                        "description": "Tender breaded chicken breasts topped with marinara sauce, melted mozzarella cheese, and Parmesan cheese. Served over spaghetti.",
-                        "ingredients": [
-                          "2 boneless, skinless chicken breasts",
-                          "1/2 cup all-purpose flour",
-                          "2 eggs, beaten",
-                          "1 cup breadcrumbs",
-                          "1/2 teaspoon dried oregano",
-                          "1/2 teaspoon dried basil",
-                          "1/4 cup grated Parmesan cheese",
-                          "1/4 cup vegetable oil",
-                          "1 cup marinara sauce",
-                          "1 cup shredded mozzarella cheese",
-                          "Cooked spaghetti for serving",
-                          "Chopped fresh basil for garnish"
-                        ],
-                        "directions": [
-                          "Preheat the oven to 375°F (190°C).",
-                          "Place the flour, beaten eggs, and breadcrumbs mixed with dried oregano, dried basil, and grated Parmesan cheese in separate shallow bowls.",
-                          "Dredge each chicken breast in the flour, then dip it into the beaten eggs, and coat it with the breadcrumb mixture, pressing gently to adhere.",
-                          "Heat vegetable oil in a large skillet over medium heat.",
-                          "Cook the breaded chicken breasts for about 4-5 minutes on each side until golden brown.",
-                          "Transfer the chicken breasts to a baking dish and spoon marinara sauce over each breast.",
-                          "Sprinkle shredded mozzarella cheese over the sauce.",
-                          "Bake in the preheated oven for 20-25 minutes until the chicken is cooked through and the cheese is melted and bubbly.",
-                          "Serve the chicken Parmesan over cooked spaghetti, garnished with chopped fresh basil.",
-                          "Enjoy this classic Italian dish!"
-                        ],
-                        "comments": [
-                          {
-                            "name": "Julia",
-                            "comment": "Absolutely delicious! The chicken is crispy and the combination of sauce and cheese is heavenly."
-                          },
-                          {
-                            "name": "Mike",
-                            "comment": "Chicken Parmesan is one of my favorite comfort foods. This recipe hits the spot!"
-                          },
-                          {
-                            "name": "Sarah",
-                            "comment": "Perfectly cooked chicken with a cheesy topping. I can't get enough of this dish."
-                          }
-                        ]
-                      },
-                      {
-                        "id":5,
-                        "name": "Vegetable Curry",
-                        "picture": "vegetable_curry.jpg",
-                        "description": "A flavorful and hearty curry made with a variety of vegetables, aromatic spices, and coconut milk. Served with rice or naan bread.",
-                        "ingredients": [
-                          "1 tablespoon vegetable oil",
-                          "1 onion, chopped",
-                          "2 cloves garlic, minced",
-                          "1 tablespoon grated fresh ginger",
-                          "2 tablespoons curry powder",
-                          "1 teaspoon ground cumin",
-                          "1/2 teaspoon ground turmeric",
-                          "1/4 teaspoon cayenne pepper (optional)",
-                          "1 cup diced potatoes",
-                          "1 cup chopped carrots",
-                          "1 cup cauliflower florets",
-                          "1 cup chopped bell pepper",
-                          "1 cup chopped zucchini",
-                          "1 can (14 oz) coconut milk",
-                          "1 cup vegetable broth",
-                          "Salt to taste",
-                          "Cooked rice or naan bread for serving",
-                          "Chopped fresh cilantro for garnish"
-                        ],
-                        "directions": [
-                          "Heat the vegetable oil in a large pot or Dutch oven over medium heat.",
-                          "Add the chopped onion, minced garlic, and grated ginger. Sauté until the onion is translucent and fragrant.",
-                          "Add the curry powder, ground cumin, ground turmeric, and cayenne pepper (if using). Stir to coat the onion mixture with the spices.",
-                          "Add the diced potatoes, chopped carrots, cauliflower florets, chopped bell pepper, and chopped zucchini to the pot. Stir to combine.",
-                          "Pour in the coconut milk and vegetable broth. Bring to a boil, then reduce the heat to low and simmer for 15-20 minutes until the vegetables are tender.",
-                          "Season with salt to taste.",
-                          "Serve the vegetable curry over cooked rice or with naan bread.",
-                          "Garnish with chopped fresh cilantro.",
-                          "Enjoy this delicious and comforting curry!"
-                        ],
-                        "comments": [
-                          {
-                            "name": "Emma",
-                            "comment": "I love vegetarian curries, and this one is packed with flavor and veggies. So good!"
-                          },
-                          {
-                            "name": "John",
-                            "comment": "This vegetable curry is a great meatless option. The spices are perfectly balanced."
-                          },
-                          {
-                            "name": "Lisa",
-                            "comment": "Creamy and aromatic curry. I'll be making this again for sure!"
-                          }
-                        ]
-                      },
-                      {
-                        "id":6,
-                        "name": "Beef Tacos",
-                        "picture": "beef_tacos.jpg",
-                        "description": "Delicious and satisfying beef tacos with seasoned ground beef, crispy taco shells, and all your favorite toppings.",
-                        "ingredients": [
-                          "1 lb ground beef",
-                          "1 small onion, chopped",
-                          "2 cloves garlic, minced",
-                          "1 tablespoon chili powder",
-                          "1 teaspoon ground cumin",
-                          "1/2 teaspoon paprika",
-                          "1/4 teaspoon cayenne pepper (optional)",
-                          "Salt and pepper to taste",
-                          "12 taco shells",
-                          "Taco toppings (shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, etc.)"
-                        ],
-                        "directions": [
-                          "In a skillet, cook the ground beef over medium heat until browned. Drain any excess fat.",
-                          "Add the chopped onion and minced garlic to the skillet with the ground beef. Sauté for a few minutes until the onion is softened.",
-                          "Stir in the chili powder, ground cumin, paprika, cayenne pepper (if using), salt, and pepper. Cook for an additional 2-3 minutes to allow the flavors to meld together.",
-                          "Heat the taco shells according to the package instructions.",
-                          "Fill each taco shell with the seasoned ground beef mixture.",
-                          "Top the tacos with shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, or your favorite taco toppings.",
-                          "Serve the beef tacos immediately.",
-                          "Enjoy these flavorful and customizable tacos!"
-                        ],
-                        "comments": [
-                          {
-                            "name": "Alex",
-                            "comment": "These beef tacos are a hit every time. So tasty and easy to make!"
-                          },
-                          {
-                            "name": "Natalie",
-                            "comment": "I love how versatile these tacos are. You can add your favorite toppings and create your own flavor combination."
-                          },
-                          {
-                            "name": "Daniel",
-                            "comment": "The seasoned beef is delicious, and the crispy taco shells add the perfect crunch. Yum!"
-                          }
-                        ]
-                      },
-                      {
-                        "id":7,
-                        "name": "Lemon Herb Roast Chicken",
-                        "picture": "roast_chicken.jpg",
-                        "description": "A juicy and flavorful roast chicken with a zesty lemon and herb marinade. Perfect for a Sunday dinner or special occasion.",
-                        "ingredients": [
-                          "1 whole chicken (about 4-5 lbs)",
-                          "1 lemon, juiced and zested",
-                          "3 tablespoons olive oil",
-                          "2 cloves garlic, minced",
-                          "1 tablespoon chopped fresh rosemary",
-                          "1 tablespoon chopped fresh thyme",
-                          "Salt and pepper to taste",
-                          "1 onion, quartered",
-                          "1 lemon, sliced",
-                          "Fresh herbs for garnish (rosemary, thyme, parsley)"
-                        ],
-                        "directions": [
-                          "Preheat the oven to 425°F (220°C).",
-                          "Rinse the chicken and pat it dry with paper towels.",
-                          "In a small bowl, whisk together the lemon juice, lemon zest, olive oil, minced garlic, chopped rosemary, chopped thyme, salt, and pepper.",
-                          "Rub the lemon herb marinade all over the chicken, including under the skin and inside the cavity.",
-                          "Place the quartered onion and sliced lemon inside the chicken cavity.",
-                          "Tie the chicken legs together with kitchen twine and tuck the wing tips under the bird.",
-                          "Place the chicken on a rack in a roasting pan, breast side up.",
-                          "Roast the chicken in the preheated oven for about 1 hour and 15 minutes, or until the internal temperature reaches 165°F (74°C) when measured with a meat thermometer.",
-                          "Remove the chicken from the oven and let it rest for 10-15 minutes before carving.",
-                          "Garnish with fresh herbs.",
-                          "Serve the lemon herb roast chicken with your favorite side dishes.",
-                          "Enjoy this succulent and aromatic roast chicken!"
-                        ],
-                        "comments": [
-                          {
-                            "name": "Michelle",
-                            "comment": "The lemon and herb flavors really shine in this roast chicken. It's incredibly tender and tasty."
-                          },
-                          {
-                            "name": "Chris",
-                            "comment": "I make this roast chicken for special occasions, and it always impresses. The flavors are fantastic!"
-                          },
-                          {
-                            "name": "Samantha",
-                            "comment": "Juicy and flavorful chicken with a lovely hint of lemon. This recipe is a keeper."
-                          }
-                        ]
-                      } 
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Desserts",
-        "foods": [
-            {
-                "id":1,
-                "name": "Chocolate Lava Cake",
-                "picture": "chocolate_lava_cake.jpg",
-                "description": "Indulge in a decadent and gooey chocolate lava cake with a warm molten center.",
-                "ingredients": [
-                  "1/2 cup unsalted butter",
-                  "4 oz bittersweet chocolate, chopped",
-                  "2 large eggs",
-                  "2 large egg yolks",
-                  "1/4 cup granulated sugar",
-                  "1/4 teaspoon salt",
-                  "2 tablespoons all-purpose flour",
-                  "Powdered sugar for dusting",
-                  "Vanilla ice cream for serving"
-                ],
-                "directions": [
-                  "Preheat the oven to 425°F (220°C). Grease four ramekins with butter and dust with cocoa powder.",
-                  "In a microwave-safe bowl, melt the butter and chopped chocolate together in short intervals, stirring until smooth.",
-                  "In a separate bowl, whisk together the eggs, egg yolks, granulated sugar, and salt until well combined.",
-                  "Slowly pour the chocolate mixture into the egg mixture, whisking constantly.",
-                  "Fold in the flour until just combined.",
-                  "Divide the batter evenly among the prepared ramekins.",
-                  "Bake for 12-14 minutes or until the edges are set but the center is still soft and jiggly.",
-                  "Remove from the oven and let cool for 1 minute.",
-                  "Invert each ramekin onto a serving plate and gently tap to release the cake. Remove the ramekin.",
-                  "Dust with powdered sugar and serve immediately with a scoop of vanilla ice cream."
-                ],
-                "comments": [
-                  {
-                    "name": "Sarah",
-                    "comment": "One of my all-time favorite pasta dishes!"
-                  },
-                  {
-                    "name": "Michael",
-                    "comment": "Creamy and flavorful, loved it!"
-                  },
-                  {
-                    "name": "Emily",
-                    "comment": "The sauce is rich and velvety. Delicious!"
-                  }
-                ]
+                "name": "Mike",
+                "comment": "Simple and delicious. Love the combination of flavors."
               },
               {
-                  "id":2,
-                  "name": "Berry Parfait",
-                  "picture": "berry_parfait.jpg",
-                  "description": "A delightful and layered dessert with fresh berries, yogurt, and crunchy granola.",
-                  "ingredients": [
-                    "1 cup mixed berries (strawberries, blueberries, raspberries)",
-                    "1 cup Greek yogurt",
-                    "2 tablespoons honey",
-                    "1/2 cup granola",
-                    "Fresh mint leaves for garnish"
-                  ],
-                  "directions": [
-                    "In a glass or parfait dish, layer the mixed berries.",
-                    "In a separate bowl, mix together the Greek yogurt and honey.",
-                    "Spoon a layer of the yogurt mixture on top of the berries.",
-                    "Sprinkle a layer of granola over the yogurt.",
-                    "Repeat the layers until the ingredients are used, finishing with a layer of berries and a sprinkle of granola on top.",
-                    "Garnish with fresh mint leaves.",
-                    "Chill in the refrigerator for at least 1 hour before serving.",
-                    "Enjoy!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Jessica",
-                      "comment": "So fresh and light. The perfect summer dessert!"
-                    },
-                    {
-                      "name": "Alex",
-                      "comment": "Love the combination of textures in this parfait."
-                    },
-                    {
-                      "name": "Sarah",
-                      "comment": "Delicious and healthy dessert option. Will make it again."
-                    }
-                  ]
+                "name": "Emily",
+                "comment": "Perfect appetizer for a summer gathering."
+              }
+            ]
+          },
+          {
+            "id":3,
+            "name": "Bruschetta",
+            "picture": "bruschetta.jpg",
+            "description": "A classic Italian appetizer featuring grilled bread topped with fresh tomatoes, basil, garlic, and olive oil.",
+            "ingredients": [
+              "Baguette or Italian bread",
+              "4-5 ripe tomatoes, diced",
+              "Fresh basil leaves, chopped",
+              "2 cloves garlic, minced",
+              "Extra-virgin olive oil",
+             "Salt and pepper to taste"
+            ],
+            "directions": [
+              "Preheat the grill or oven to medium-high heat.",
+              "Slice the baguette or Italian bread into 1/2-inch thick slices.",
+              "Grill or toast the bread slices until lightly golden on both sides.",
+              "In a bowl, combine the diced tomatoes, chopped basil, minced garlic, and drizzle with olive oil. Season with salt and pepper to taste.",
+              "Top each bread slice with the tomato mixture.",
+              "Serve immediately and enjoy!"
+            ],
+            "comments": [
+              {
+                "name": "Amy",
+                "comment": "Simple and delicious. Perfect appetizer for any occasion."
+              },
+              {
+                "name": "Mark",
+                "comment": "The combination of flavors is amazing. Loved it!"
+              },
+              {
+                "name": "Laura",
+                "comment": "A refreshing and light appetizer. Will definitely make it again."
+              }
+            ]
+          },
+          {
+            "id":4,
+            "name": "Chicken Satay",
+            "picture": "chicken_satay.jpg",
+            "description": "Tender chicken skewers marinated in a flavorful blend of spices, grilled to perfection, and served with a peanut dipping sauce.",
+            "ingredients": [
+              "1 lb boneless, skinless chicken breasts, cut into thin strips",
+              "2 tablespoons soy sauce",
+              "2 tablespoons lime juice",
+              "2 tablespoons honey",
+              "1 tablespoon curry powder",
+              "1 clove garlic, minced",
+              "Wooden skewers",
+              "Peanut sauce for dipping"
+            ],
+            "directions": [
+              "In a bowl, combine the soy sauce, lime juice, honey, curry powder, and minced garlic to make the marinade.",
+              "Add the chicken strips to the marinade and toss to coat. Let it marinate for at least 30 minutes.",
+              "Preheat the grill or grill pan over medium-high heat.",
+              "Thread the marinated chicken strips onto wooden skewers.",
+              "Grill the chicken skewers for about 4-5 minutes per side until cooked through and slightly charred.",
+              "Serve the chicken satay with peanut sauce for dipping.",
+              "Enjoy!"
+               ],
+            "comments": [
+              {
+                "name": "Kevin",
+                "comment": "These chicken skewers are so flavorful. The peanut sauce is a great accompaniment."
+              },
+              {
+                "name": "Rachel",
+                "comment": "A fantastic appetizer for parties. Always a crowd-pleaser."
+              },
+              {
+                "name": "Brian",
+                "comment": "The marinade really infuses the chicken with amazing flavors. Love it!"
+              }
+            ]
+          },
+          {
+            "id":5,
+            "name": "Crispy Fried Calamari",
+            "picture": "fried_calamari.jpg",
+            "description": "Tender calamari rings coated in a crispy batter and deep-fried until golden brown. Served with marinara sauce or aioli.",
+            "ingredients": [
+              "1 lb calamari rings",
+              "1 cup all-purpose flour",
+              "1 teaspoon paprika",
+              "1/2 teaspoon salt",
+              "1/4 teaspoon black pepper",
+              "Vegetable oil for frying",
+              "Marinara sauce or aioli for dipping"
+             ],
+            "directions": [
+              "In a shallow bowl, mix together the flour, paprika, salt, and black pepper.",
+              "Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).",
+              "Dip the calamari rings into the flour mixture, shaking off any excess.",
+              "Carefully drop a few calamari rings into the hot oil and fry for about 2-3 minutes until golden brown and crispy.",
+              "Remove the fried calamari with a slotted spoon and transfer to a paper towel-lined plate to drain excess oil.",
+              "Repeat the frying process with the remaining calamari rings.",
+              "Serve the crispy fried calamari with marinara sauce or aioli for dipping.",
+              "Enjoy!"
+            ],
+            "comments": [
+             {
+                 "name": "Michelle",
+                 "comment": "These calamari rings are perfectly crispy. The marinara sauce is a great match."
+              },
+              {
+                "name": "Steve",
+                "comment": "Delicious and addictive. Can't get enough of these fried calamari rings!"
+              },
+              {
+                "name": "Karen",
+                "comment": "Restaurant-quality calamari made at home. So good!"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "name": "Mozzarella Sticks",
+            "picture": "mozzarella_sticks.jpg",
+            "description": "Golden and crispy breaded mozzarella sticks with a gooey and melty cheese center. Served with marinara sauce for dipping.",
+            "ingredients": [
+              "12 mozzarella sticks",
+              "1 cup all-purpose flour",
+              "2 eggs, beaten",
+              "1 cup breadcrumbs",
+              "1/2 teaspoon dried oregano",
+              "1/2 teaspoon dried basil",
+              "Vegetable oil for frying",
+             "Marinara sauce for dipping"
+            ],
+            "directions": [
+              "Place the flour, beaten eggs, and breadcrumbs mixed with dried oregano and dried basil in separate shallow bowls.",
+              "Dip each mozzarella stick into the flour, then the beaten eggs, and finally coat it with the breadcrumb mixture, pressing gently to adhere.",
+              "Place the coated mozzarella sticks on a baking sheet and freeze for 30 minutes.",
+              "Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).",
+              "Fry the mozzarella sticks in small batches for about 2-3 minutes until golden brown.",
+              "Remove the fried mozzarella sticks with a slotted spoon and transfer to a paper towel-lined plate to drain excess oil.",
+              "Serve the mozzarella sticks immediately with marinara sauce for dipping.",
+              "Enjoy the melty and crispy goodness!"
+            ],
+            "comments": [
+              {
+                "name": "Tom",
+                "comment": "I can't resist these mozzarella sticks. Perfectly crispy on the outside and ooey-gooey on the inside."
+              },
+              {
+                "name": "Megan",
+                "comment": "The ultimate comfort food. These mozzarella sticks are always a crowd favorite."
+              },
+              {
+                "name": "Greg",
+                "comment": "Delicious and addictive. I could snack on these all day!"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "name": "Guacamole",
+            "picture": "guacamole.jpg",
+            "description": "A creamy and flavorful dip made with ripe avocados, tomatoes, onions, jalapeños, lime juice, and cilantro. Served with tortilla chips.",
+            "ingredients": [
+              "2 ripe avocados",
+              "1 tomato, diced",
+              "1/4 cup finely chopped onion",
+              "1 jalapeño, seeded and minced",
+              "Juice of 1 lime",
+              "2 tablespoons chopped fresh cilantro",
+              "Salt and pepper to taste",
+              "Tortilla chips for serving"
+            ],
+            "directions": [
+              "Cut the avocados in half, remove the pits, and scoop the flesh into a bowl.",
+              "Mash the avocados with a fork until smooth or leave it slightly chunky, depending on your preference.",
+              "Add the diced tomato, chopped onion, minced jalapeño, lime juice, and chopped cilantro to the bowl. Mix well to combine.",
+              "Season with salt and pepper to taste.",
+              "Cover the guacamole with plastic wrap, pressing it directly against the surface to prevent browning.",
+              "Refrigerate for at least 30 minutes to allow the flavors to meld together.",
+              "Serve the guacamole with tortilla chips.",
+              "Enjoy!"
+           ],
+            "comments": [
+              {
+                "name": "Emily",
+                "comment": "Homemade guacamole is the best. So fresh and flavorful."
+              },
+              {
+                "name": "Chris",
+                "comment": "I could eat this guacamole every day. The perfect balance of flavors."
+              },
+              {
+               "name": "Anna",
+                "comment": "Love the added kick from the jalapeños. This guacamole is fantastic!"
+              }
+            ]
+          }
+    ],
+    "mains":[
+        {
+            "id":1,
+            "name": "Chicken Alfredo Pasta",
+            "picture": "chicken_alfredo_pasta.jpg",
+            "description": "A classic Italian dish featuring tender chicken and creamy Alfredo sauce tossed with pasta.",
+            "ingredients": [
+              "8 oz fettuccine pasta",
+              "2 boneless, skinless chicken breasts, cut into strips",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "1 cup heavy cream",
+              "1 cup grated Parmesan cheese",
+              "Salt and pepper to taste",
+              "Chopped fresh parsley for garnish"
+            ],
+            "directions": [
+              "Cook the fettuccine pasta according to package instructions. Drain and set aside.",
+              "In a large skillet, heat the olive oil over medium-high heat.",
+              "Add the chicken strips and cook until no longer pink, about 5-6 minutes. Remove from the skillet and set aside.",
+              "In the same skillet, add the minced garlic and cook for 1 minute until fragrant.",
+              "Reduce the heat to low and stir in the heavy cream and grated Parmesan cheese. Cook, stirring constantly, until the sauce thickens.",
+              "Season with salt and pepper to taste.",
+              "Add the cooked chicken and cooked fettuccine to the skillet, tossing well to coat the pasta with the sauce.",
+              "Garnish with chopped fresh parsley and serve hot."
+            ],
+            "comments": [
+              {
+                "name": "John",
+                "comment": "This dip is always a hit at parties!"
+              },
+              {
+                "name": "Amy",
+                "comment": "I added some diced jalapenos for an extra kick. Delicious!"
+              },
+              {
+                "name": "David",
+                "comment": "Creamy and cheesy, the perfect appetizer."
+              }
+            ]
+          },
+          {
+              "id":2,
+              "name": "Beef Stir-Fry",
+              "picture": "beef_stir_fry.jpg",
+              "description": "A flavorful and colorful stir-fry dish with tender beef, crisp vegetables, and a savory sauce.",
+              "ingredients": [
+                "1 lb beef sirloin, thinly sliced",
+                "2 tablespoons soy sauce",
+                "2 tablespoons oyster sauce",
+                "1 tablespoon cornstarch",
+                "2 tablespoons vegetable oil",
+                "1 bell pepper, thinly sliced",
+                "1 onion, thinly sliced",
+                "2 cloves garlic, minced",
+                "1 cup broccoli florets",
+                "Salt and pepper to taste",
+                "Cooked rice for serving"
+              ],
+              "directions": [
+                "In a bowl, combine the beef slices with soy sauce, oyster sauce, and cornstarch. Set aside to marinate for 15 minutes.",
+                "Heat the vegetable oil in a wok or large skillet over high heat.",
+                "Add the marinated beef and stir-fry for 2-3 minutes until browned. Remove from the wok and set aside.",
+                "In the same wok, add the bell pepper, onion, garlic, and broccoli. Stir-fry for 3-4 minutes until the vegetables are crisp-tender.",
+                "Return the beef to the wok and toss everything together.",
+                "Season with salt and pepper to taste.",
+                "Serve hot over cooked rice.",
+                "Enjoy!"
+              ],
+              "comments": [
+                {
+                  "name": "David",
+                  "comment": "This stir-fry is bursting with flavors. Loved it!"
                 },
                 {
-                  "id":3,
-                  "name": "Apple Crisp",
-                  "picture": "apple_crisp.jpg",
-                  "description": "Warm and comforting apple dessert with a crunchy oat topping. Best served with a scoop of vanilla ice cream.",
-                  "ingredients": [
-                    "4 cups sliced apples",
-                    "1 tablespoon lemon juice",
-                    "1/4 cup granulated sugar",
-                    "1/2 teaspoon ground cinnamon",
-                    "1/2 cup all-purpose flour",
-                    "1/2 cup rolled oats",
-                    "1/2 cup brown sugar",
-                    "1/4 cup cold unsalted butter, cubed",
-                    "Vanilla ice cream for serving"
-                  ],
-                  "directions": [
-                    "Preheat the oven to 375°F (190°C). Grease a baking dish with butter or cooking spray.",
-                    "In a large bowl, toss the sliced apples with lemon juice, granulated sugar, and ground cinnamon.",
-                    "Transfer the apple mixture to the greased baking dish, spreading it out evenly.",
-                    "In a separate bowl, combine the all-purpose flour, rolled oats, and brown sugar.",
-                    "Add the cold cubed butter to the flour mixture and use your fingers or a pastry cutter to cut it into the dry ingredients until the mixture resembles coarse crumbs.",
-                    "Sprinkle the oat topping evenly over the apples in the baking dish.",
-                    "Bake in the preheated oven for 30-35 minutes, or until the topping is golden brown and the apples are tender.",
-                    "Remove from the oven and let it cool for a few minutes.",
-                    "Serve the apple crisp warm with a scoop of vanilla ice cream.",
-                    "Enjoy this comforting and delicious dessert!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Noah",
-                      "comment": "Apple crisp is one of my favorite fall desserts, and this recipe does not disappoint."
-                    },
-                    {
-                      "name": "Mia",
-                      "comment": "The combination of warm apples, crunchy topping, and cold ice cream is simply heavenly."
-                    },
-                    {
-                      "name": "Lucas",
-                      "comment": "This apple crisp is the perfect balance of sweet, tart, and crispy. I love every bite!"
-                    }
-                  ]
+                  "name": "Samantha",
+                  "comment": "Quick and easy weeknight meal. The whole family enjoyed it."
                 },
                 {
-                  "id":4,
-                  "name": "Strawberry Shortcake",
-                  "picture": "strawberry_shortcake.jpg",
-                  "description": "Classic dessert made with buttery shortcakes, fresh strawberries, and whipped cream.",
-                  "ingredients": [
-                    "2 cups sliced strawberries",
-                    "2 tablespoons granulated sugar",
-                    "2 cups all-purpose flour",
-                    "1/4 cup granulated sugar",
-                    "1 tablespoon baking powder",
-                    "1/2 teaspoon salt",
-                    "1/2 cup unsalted butter, cold and cubed",
-                    "2/3 cup milk",
-                    "Whipped cream for serving",
-                    "Fresh mint leaves for garnish"
-                  ],
-                  "directions": [
-                    "In a bowl, combine the sliced strawberries and granulated sugar. Toss well and let them macerate for at least 15 minutes.",
-                    "Preheat the oven to 425°F (220°C). Line a baking sheet with parchment paper.",
-                    "In a large bowl, whisk together the all-purpose flour, granulated sugar, baking powder, and salt.",
-                    "Add the cold cubed butter to the flour mixture. Use your fingers or a pastry cutter to cut the butter into the dry ingredients until the mixture resembles coarse crumbs.",
-                    "Gradually pour in the milk, stirring until just combined. Do not overmix.",
-                    "Turn the dough out onto a lightly floured surface. Gently knead it a few times until it comes together.",
-                    "Pat the dough into a 1-inch thick round. Use a biscuit cutter to cut out shortcakes.",
-                    "Place the shortcakes onto the prepared baking sheet, spacing them apart.",
-                    "Bake in the preheated oven for 12-15 minutes, or until golden brown.",
-                    "Remove from the oven and let the shortcakes cool slightly.",
-                    "To assemble, split the shortcakes in half horizontally. Spoon the macerated strawberries onto the bottom half of each shortcake.",
-                    "Top with whipped cream and place the other half of the shortcake on top.",
-                    "Garnish with fresh mint leaves.",
-                    "Serve the strawberry shortcakes immediately.",
-                    "Enjoy this classic and delightful dessert!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Oliver",
-                      "comment": "Strawberry shortcake reminds me of summers. This recipe brings back so many memories."
-                    },
-                    {
-                      "name": "Ella",
-                      "comment": "The homemade shortcakes are tender and buttery, and the juicy strawberries make it perfect."
-                    },
-                    {
-                      "name": "Aiden",
-                      "comment": "Strawberry shortcake is a timeless dessert, and this recipe is absolutely scrumptious."
-                    }
-                  ]
-                },
-                {
-                  "id":5,
-                  "name": "Banana Bread",
-                  "picture": "banana_bread.jpg",
-                  "description": "Moist and flavorful banana bread that's perfect for breakfast or as a snack.",
-                  "ingredients": [
-                    "2 cups all-purpose flour",
-                    "1 teaspoon baking soda",
-                    "1/4 teaspoon salt",
-                    "1/2 cup unsalted butter, softened",
-                    "1 cup granulated sugar",
-                    "2 large eggs",
-                    "4 ripe bananas, mashed",
-                    "1/4 cup milk",
-                    "1 teaspoon vanilla extract",
-                    "1/2 cup chopped walnuts (optional)"
-                  ],
-                  "directions": [
-                    "Preheat the oven to 350°F (175°C). Grease a 9x5-inch loaf pan.",
-                    "In a medium bowl, whisk together the all-purpose flour, baking soda, and salt.",
-                    "In a large bowl, cream together the softened butter and granulated sugar until light and fluffy.",
-                    "Beat in the eggs, one at a time, followed by the mashed bananas.",
-                    "Mix in the milk and vanilla extract.",
-                    "Gradually add the dry ingredients to the wet ingredients, mixing until just combined. Do not overmix.",
-                    "If using, fold in the chopped walnuts.",
-                    "Pour the batter into the greased loaf pan and spread it out evenly.",
-                    "Bake in the preheated oven for 60-65 minutes, or until a toothpick inserted into the center comes out clean.",
-                    "Remove from the oven and let the banana bread cool in the pan for 10 minutes.",
-                    "Transfer the bread to a wire rack to cool completely.",
-                    "Slice and serve the banana bread.",
-                    "Enjoy this moist and delicious treat!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Liam",
-                      "comment": "Banana bread is my ultimate comfort food. This recipe is a winner!"
-                    },
-                    {
-                      "name": "Ava",
-                      "comment": "I love how moist and flavorful this banana bread is. It's perfect with a cup of coffee."
-                    },
-                    {
-                      "name": "Mason",
-                      "comment": "The addition of walnuts adds a nice crunch to this classic banana bread. I can't get enough of it."
-                    }
-                  ]
-                },
-                {
-                  "id":6,
-                  "name": "Peach Cobbler",
-                  "picture": "peach_cobbler.jpg",
-                  "description": "A delightful summer dessert with juicy peaches and a buttery biscuit topping.",
-                  "ingredients": [
-                    "4 cups sliced peaches",
-                    "1/2 cup granulated sugar",
-                    "1 tablespoon lemon juice",
-                    "1 teaspoon vanilla extract",
-                    "1 cup all-purpose flour",
-                    "1/2 cup granulated sugar",
-                    "1 teaspoon baking powder",
-                    "1/2 teaspoon salt",
-                    "1/2 cup unsalted butter, cold and cubed",
-                    "1/4 cup boiling water",
-                    "1 teaspoon cinnamon (optional)",
-                    "Vanilla ice cream for serving"
-                  ],
-                  "directions": [
-                    "Preheat the oven to 425°F (220°C). Grease a baking dish with butter or cooking spray.",
-                    "In a large bowl, combine the sliced peaches, granulated sugar, lemon juice, and vanilla extract. Toss well.",
-                    "Transfer the peach mixture to the greased baking dish, spreading it out evenly.",
-                    "In a separate bowl, whisk together the all-purpose flour, granulated sugar, baking powder, and salt.",
-                    "Add the cold cubed butter to the flour mixture. Use your fingers or a pastry cutter to cut the butter into the dry ingredients until the mixture resembles coarse crumbs.",
-                    "Gradually pour in the boiling water, stirring until just combined.",
-                    "Drop spoonfuls of the biscuit dough on top of the peaches. Sprinkle with cinnamon, if desired.",
-                    "Bake in the preheated oven for 25-30 minutes, or until the topping is golden brown and the peaches are bubbly.",
-                    "Remove from the oven and let the peach cobbler cool for a few minutes.",
-                    "Serve warm with a scoop of vanilla ice cream.",
-                    "Enjoy this comforting and fruity dessert!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Charlotte",
-                      "comment": "Peach cobbler is the epitome of summer. This recipe brings out the natural sweetness of the peaches."
-                    },
-                    {
-                      "name": "Henry",
-                      "comment": "The buttery biscuit topping is the perfect complement to the juicy peaches. Absolutely delicious!"
-                    },
-                    {
-                      "name": "Emma",
-                      "comment": "I love how the peach juices soak into the biscuit topping. It's like a taste of heaven."
-                    }
-                  ]
+                  "name": "Robert",
+                  "comment": "Perfect balance of textures and flavors."
                 }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Cocktails",
-        "foods": [
+              ]
+            },
             {
-                "id":1,
-                "name": "Mojito",
-                "picture": "mojito.jpg",
-                "description": "A refreshing and minty cocktail made with rum, lime juice, sugar, soda water, and fresh mint leaves.",
-                "ingredients": [
-                  "2 oz white rum",
-                  "1 oz lime juice",
-                  "2 teaspoons granulated sugar",
-                  "Soda water",
-                  "8-10 fresh mint leaves",
-                  "Crushed ice",
-                  "Lime slices and additional mint leaves for garnish"
-                ],
-                "directions": [
-                  "In a glass, muddle the mint leaves, lime juice, and sugar together until the mint is fragrant and the sugar is dissolved.",
-                  "Fill the glass with crushed ice.",
-                  "Pour in the white rum and stir well.",
-                  "Top with soda water and gently stir to combine.",
-                  "Garnish with lime slices and additional mint leaves.",
-                  "Serve immediately and enjoy!"
-                ],
-                "comments": [
-                  {
-                    "name": "John",
-                    "comment": "This dip is always a hit at parties!"
+                    "id":3,
+                    "name": "Spaghetti Carbonara",
+                    "picture": "spaghetti_carbonara.jpg",
+                    "description": "A classic Italian pasta dish made with spaghetti, pancetta or bacon, eggs, Parmesan cheese, and black pepper.",
+                    "ingredients": [
+                      "8 oz spaghetti",
+                      "4 oz pancetta or bacon, diced",
+                      "2 cloves garlic, minced",
+                      "2 large eggs",
+                      "1/2 cup grated Parmesan cheese",
+                      "Freshly ground black pepper",
+                      "Salt to taste",
+                      "Chopped fresh parsley for garnish"
+                    ],
+                    "directions": [
+                      "Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
+                      "In a skillet, cook the pancetta or bacon until crispy. Add the minced garlic and cook for an additional minute.",
+                      "In a bowl, whisk together the eggs, grated Parmesan cheese, and a generous amount of freshly ground black pepper.",
+                      "Add the cooked spaghetti to the skillet with the pancetta or bacon and garlic. Toss to combine.",
+                      "Remove the skillet from heat and quickly pour in the egg mixture, stirring continuously to coat the spaghetti evenly. The heat of the pasta will cook the eggs.",
+                      "Season with salt to taste.",
+                      "Garnish with chopped fresh parsley and additional grated Parmesan cheese.",
+                      "Serve immediately and enjoy!"
+                    ],
+                    "comments": [
+                      {
+                        "name": "Robert",
+                        "comment": "The ultimate comfort food. This carbonara is creamy and delicious."
+                      },
+                      {
+                        "name": "Sophie",
+                        "comment": "Authentic and flavorful. Love this classic Italian pasta dish."
+                      },
+                      {
+                        "name": "David",
+                        "comment": "Perfectly balanced flavors. This spaghetti carbonara is a winner!"
+                      }
+                    ]
                   },
                   {
-                    "name": "Amy",
-                    "comment": "I added some diced jalapenos for an extra kick. Delicious!"
+                    "id":4,
+                    "name": "Chicken Parmesan",
+                    "picture": "chicken_parmesan.jpg",
+                    "description": "Tender breaded chicken breasts topped with marinara sauce, melted mozzarella cheese, and Parmesan cheese. Served over spaghetti.",
+                    "ingredients": [
+                      "2 boneless, skinless chicken breasts",
+                      "1/2 cup all-purpose flour",
+                      "2 eggs, beaten",
+                      "1 cup breadcrumbs",
+                      "1/2 teaspoon dried oregano",
+                      "1/2 teaspoon dried basil",
+                      "1/4 cup grated Parmesan cheese",
+                      "1/4 cup vegetable oil",
+                      "1 cup marinara sauce",
+                      "1 cup shredded mozzarella cheese",
+                      "Cooked spaghetti for serving",
+                      "Chopped fresh basil for garnish"
+                    ],
+                    "directions": [
+                      "Preheat the oven to 375°F (190°C).",
+                      "Place the flour, beaten eggs, and breadcrumbs mixed with dried oregano, dried basil, and grated Parmesan cheese in separate shallow bowls.",
+                      "Dredge each chicken breast in the flour, then dip it into the beaten eggs, and coat it with the breadcrumb mixture, pressing gently to adhere.",
+                      "Heat vegetable oil in a large skillet over medium heat.",
+                      "Cook the breaded chicken breasts for about 4-5 minutes on each side until golden brown.",
+                      "Transfer the chicken breasts to a baking dish and spoon marinara sauce over each breast.",
+                      "Sprinkle shredded mozzarella cheese over the sauce.",
+                      "Bake in the preheated oven for 20-25 minutes until the chicken is cooked through and the cheese is melted and bubbly.",
+                      "Serve the chicken Parmesan over cooked spaghetti, garnished with chopped fresh basil.",
+                      "Enjoy this classic Italian dish!"
+                    ],
+                    "comments": [
+                      {
+                        "name": "Julia",
+                        "comment": "Absolutely delicious! The chicken is crispy and the combination of sauce and cheese is heavenly."
+                      },
+                      {
+                        "name": "Mike",
+                        "comment": "Chicken Parmesan is one of my favorite comfort foods. This recipe hits the spot!"
+                      },
+                      {
+                        "name": "Sarah",
+                        "comment": "Perfectly cooked chicken with a cheesy topping. I can't get enough of this dish."
+                      }
+                    ]
                   },
                   {
-                    "name": "David",
-                    "comment": "Creamy and cheesy, the perfect appetizer."
-                  }
-                ]
+                    "id":5,
+                    "name": "Vegetable Curry",
+                    "picture": "vegetable_curry.jpg",
+                    "description": "A flavorful and hearty curry made with a variety of vegetables, aromatic spices, and coconut milk. Served with rice or naan bread.",
+                    "ingredients": [
+                      "1 tablespoon vegetable oil",
+                      "1 onion, chopped",
+                      "2 cloves garlic, minced",
+                      "1 tablespoon grated fresh ginger",
+                      "2 tablespoons curry powder",
+                      "1 teaspoon ground cumin",
+                      "1/2 teaspoon ground turmeric",
+                      "1/4 teaspoon cayenne pepper (optional)",
+                      "1 cup diced potatoes",
+                      "1 cup chopped carrots",
+                      "1 cup cauliflower florets",
+                      "1 cup chopped bell pepper",
+                      "1 cup chopped zucchini",
+                      "1 can (14 oz) coconut milk",
+                      "1 cup vegetable broth",
+                      "Salt to taste",
+                      "Cooked rice or naan bread for serving",
+                      "Chopped fresh cilantro for garnish"
+                    ],
+                    "directions": [
+                      "Heat the vegetable oil in a large pot or Dutch oven over medium heat.",
+                      "Add the chopped onion, minced garlic, and grated ginger. Sauté until the onion is translucent and fragrant.",
+                      "Add the curry powder, ground cumin, ground turmeric, and cayenne pepper (if using). Stir to coat the onion mixture with the spices.",
+                      "Add the diced potatoes, chopped carrots, cauliflower florets, chopped bell pepper, and chopped zucchini to the pot. Stir to combine.",
+                      "Pour in the coconut milk and vegetable broth. Bring to a boil, then reduce the heat to low and simmer for 15-20 minutes until the vegetables are tender.",
+                      "Season with salt to taste.",
+                      "Serve the vegetable curry over cooked rice or with naan bread.",
+                      "Garnish with chopped fresh cilantro.",
+                      "Enjoy this delicious and comforting curry!"
+                    ],
+                    "comments": [
+                      {
+                        "name": "Emma",
+                        "comment": "I love vegetarian curries, and this one is packed with flavor and veggies. So good!"
+                      },
+                      {
+                        "name": "John",
+                        "comment": "This vegetable curry is a great meatless option. The spices are perfectly balanced."
+                      },
+                      {
+                        "name": "Lisa",
+                        "comment": "Creamy and aromatic curry. I'll be making this again for sure!"
+                      }
+                    ]
+                  },
+                  {
+                    "id":6,
+                    "name": "Beef Tacos",
+                    "picture": "beef_tacos.jpg",
+                    "description": "Delicious and satisfying beef tacos with seasoned ground beef, crispy taco shells, and all your favorite toppings.",
+                    "ingredients": [
+                      "1 lb ground beef",
+                      "1 small onion, chopped",
+                      "2 cloves garlic, minced",
+                      "1 tablespoon chili powder",
+                      "1 teaspoon ground cumin",
+                      "1/2 teaspoon paprika",
+                      "1/4 teaspoon cayenne pepper (optional)",
+                      "Salt and pepper to taste",
+                      "12 taco shells",
+                      "Taco toppings (shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, etc.)"
+                    ],
+                    "directions": [
+                      "In a skillet, cook the ground beef over medium heat until browned. Drain any excess fat.",
+                      "Add the chopped onion and minced garlic to the skillet with the ground beef. Sauté for a few minutes until the onion is softened.",
+                      "Stir in the chili powder, ground cumin, paprika, cayenne pepper (if using), salt, and pepper. Cook for an additional 2-3 minutes to allow the flavors to meld together.",
+                      "Heat the taco shells according to the package instructions.",
+                      "Fill each taco shell with the seasoned ground beef mixture.",
+                      "Top the tacos with shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, or your favorite taco toppings.",
+                      "Serve the beef tacos immediately.",
+                      "Enjoy these flavorful and customizable tacos!"
+                    ],
+                    "comments": [
+                      {
+                        "name": "Alex",
+                        "comment": "These beef tacos are a hit every time. So tasty and easy to make!"
+                      },
+                      {
+                        "name": "Natalie",
+                        "comment": "I love how versatile these tacos are. You can add your favorite toppings and create your own flavor combination."
+                      },
+                      {
+                        "name": "Daniel",
+                        "comment": "The seasoned beef is delicious, and the crispy taco shells add the perfect crunch. Yum!"
+                      }
+                    ]
+                  },
+                  {
+                    "id":7,
+                    "name": "Lemon Herb Roast Chicken",
+                    "picture": "roast_chicken.jpg",
+                    "description": "A juicy and flavorful roast chicken with a zesty lemon and herb marinade. Perfect for a Sunday dinner or special occasion.",
+                    "ingredients": [
+                      "1 whole chicken (about 4-5 lbs)",
+                      "1 lemon, juiced and zested",
+                      "3 tablespoons olive oil",
+                      "2 cloves garlic, minced",
+                      "1 tablespoon chopped fresh rosemary",
+                      "1 tablespoon chopped fresh thyme",
+                      "Salt and pepper to taste",
+                      "1 onion, quartered",
+                      "1 lemon, sliced",
+                      "Fresh herbs for garnish (rosemary, thyme, parsley)"
+                    ],
+                    "directions": [
+                      "Preheat the oven to 425°F (220°C).",
+                      "Rinse the chicken and pat it dry with paper towels.",
+                      "In a small bowl, whisk together the lemon juice, lemon zest, olive oil, minced garlic, chopped rosemary, chopped thyme, salt, and pepper.",
+                      "Rub the lemon herb marinade all over the chicken, including under the skin and inside the cavity.",
+                      "Place the quartered onion and sliced lemon inside the chicken cavity.",
+                      "Tie the chicken legs together with kitchen twine and tuck the wing tips under the bird.",
+                      "Place the chicken on a rack in a roasting pan, breast side up.",
+                      "Roast the chicken in the preheated oven for about 1 hour and 15 minutes, or until the internal temperature reaches 165°F (74°C) when measured with a meat thermometer.",
+                      "Remove the chicken from the oven and let it rest for 10-15 minutes before carving.",
+                      "Garnish with fresh herbs.",
+                      "Serve the lemon herb roast chicken with your favorite side dishes.",
+                      "Enjoy this succulent and aromatic roast chicken!"
+                    ],
+                    "comments": [
+                      {
+                        "name": "Michelle",
+                        "comment": "The lemon and herb flavors really shine in this roast chicken. It's incredibly tender and tasty."
+                      },
+                      {
+                        "name": "Chris",
+                        "comment": "I make this roast chicken for special occasions, and it always impresses. The flavors are fantastic!"
+                      },
+                      {
+                        "name": "Samantha",
+                        "comment": "Juicy and flavorful chicken with a lovely hint of lemon. This recipe is a keeper."
+                      }
+                    ]
+                  } 
+    ],
+    "deserts":[
+        {
+            "id":1,
+            "name": "Chocolate Lava Cake",
+            "picture": "chocolate_lava_cake.jpg",
+            "description": "Indulge in a decadent and gooey chocolate lava cake with a warm molten center.",
+            "ingredients": [
+              "1/2 cup unsalted butter",
+              "4 oz bittersweet chocolate, chopped",
+              "2 large eggs",
+              "2 large egg yolks",
+              "1/4 cup granulated sugar",
+              "1/4 teaspoon salt",
+              "2 tablespoons all-purpose flour",
+              "Powdered sugar for dusting",
+              "Vanilla ice cream for serving"
+            ],
+            "directions": [
+              "Preheat the oven to 425°F (220°C). Grease four ramekins with butter and dust with cocoa powder.",
+              "In a microwave-safe bowl, melt the butter and chopped chocolate together in short intervals, stirring until smooth.",
+              "In a separate bowl, whisk together the eggs, egg yolks, granulated sugar, and salt until well combined.",
+              "Slowly pour the chocolate mixture into the egg mixture, whisking constantly.",
+              "Fold in the flour until just combined.",
+              "Divide the batter evenly among the prepared ramekins.",
+              "Bake for 12-14 minutes or until the edges are set but the center is still soft and jiggly.",
+              "Remove from the oven and let cool for 1 minute.",
+              "Invert each ramekin onto a serving plate and gently tap to release the cake. Remove the ramekin.",
+              "Dust with powdered sugar and serve immediately with a scoop of vanilla ice cream."
+            ],
+            "comments": [
+              {
+                "name": "Sarah",
+                "comment": "One of my all-time favorite pasta dishes!"
               },
               {
-                  "id":2,
-                  "name": "Classic Margarita",
-                  "picture": "classic_margarita.jpg",
-                  "description": "A classic and refreshing cocktail made with tequila, lime juice, and orange liqueur.",
-                  "ingredients": [
-                    "2 oz tequila",
-                    "1 oz lime juice",
-                    "1 oz triple sec or orange liqueur",
-                    "Salt for rimming the glass",
-                    "Ice cubes",
-                    "Lime wedges for garnish"
-                  ],
-                  "directions": [
-                    "Rim the glass with salt by running a lime wedge around the rim and dipping it into salt.",
-                    "Fill the glass with ice cubes.",
-                    "In a shaker, combine the tequila, lime juice, and triple sec with ice.",
-                    "Shake well to mix and chill the ingredients.",
-                    "Strain the mixture into the prepared glass.",
-                    "Garnish with a lime wedge.",
-                    "Serve and enjoy!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Michael",
-                      "comment": "A classic margarita done right. Cheers!"
-                    },
-                    {
-                      "name": "Linda",
-                      "comment": "Perfect balance of flavors. Love it!"
-                    },
-                    {
-                      "name": "John",
-                      "comment": "The ultimate summer cocktail."
-                    }
-                  ]
+                "name": "Michael",
+                "comment": "Creamy and flavorful, loved it!"
+              },
+              {
+                "name": "Emily",
+                "comment": "The sauce is rich and velvety. Delicious!"
+              }
+            ]
+          },
+          {
+              "id":2,
+              "name": "Berry Parfait",
+              "picture": "berry_parfait.jpg",
+              "description": "A delightful and layered dessert with fresh berries, yogurt, and crunchy granola.",
+              "ingredients": [
+                "1 cup mixed berries (strawberries, blueberries, raspberries)",
+                "1 cup Greek yogurt",
+                "2 tablespoons honey",
+                "1/2 cup granola",
+                "Fresh mint leaves for garnish"
+              ],
+              "directions": [
+                "In a glass or parfait dish, layer the mixed berries.",
+                "In a separate bowl, mix together the Greek yogurt and honey.",
+                "Spoon a layer of the yogurt mixture on top of the berries.",
+                "Sprinkle a layer of granola over the yogurt.",
+                "Repeat the layers until the ingredients are used, finishing with a layer of berries and a sprinkle of granola on top.",
+                "Garnish with fresh mint leaves.",
+                "Chill in the refrigerator for at least 1 hour before serving.",
+                "Enjoy!"
+              ],
+              "comments": [
+                {
+                  "name": "Jessica",
+                  "comment": "So fresh and light. The perfect summer dessert!"
                 },
                 {
-                  "id":3,
-                  "name": "Mojito",
-                  "picture": "mojito.jpg",
-                  "description": "Refreshing cocktail made with rum, lime juice, fresh mint, sugar, and soda water.",
-                  "ingredients": [
-                    "2 oz white rum",
-                    "1 oz fresh lime juice",
-                    "2 teaspoons sugar",
-                    "8-10 fresh mint leaves",
-                    "Club soda",
-                    "Crushed ice"
-                  ],
-                  "directions": [
-                    "In a glass, muddle the mint leaves and sugar until the leaves release their aroma.",
-                    "Add the lime juice and rum to the glass.",
-                    "Fill the glass with crushed ice and stir well.",
-                    "Top it off with club soda.",
-                    "Garnish with a sprig of mint and a lime wedge.",
-                    "Enjoy this refreshing and minty cocktail!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Olivia",
-                      "comment": "Mojito is my go-to cocktail for hot summer days. This recipe is fantastic!"
-                    },
-                    {
-                      "name": "Liam",
-                      "comment": "The combination of fresh mint and lime is so invigorating. I love this mojito recipe!"
-                    },
-                    {
-                      "name": "Sophia",
-                      "comment": "This mojito is perfectly balanced and not overly sweet. It's simply delightful."
-                    }
-                  ]
+                  "name": "Alex",
+                  "comment": "Love the combination of textures in this parfait."
                 },
                 {
-                  "id":4,
-                  "name": "Cosmopolitan",
-                  "picture": "cosmopolitan.jpg",
-                  "description": "Classic cocktail with vodka, cranberry juice, orange liqueur, and a splash of lime juice.",
-                  "ingredients": [
-                    "1.5 oz vodka",
-                    "1 oz cranberry juice",
-                    "0.5 oz orange liqueur",
-                    "0.5 oz fresh lime juice",
-                    "Lime twist for garnish"
-                  ],
-                  "directions": [
-                    "Fill a shaker with ice cubes.",
-                    "Add vodka, cranberry juice, orange liqueur, and lime juice to the shaker.",
-                    "Shake well until chilled.",
-                    "Strain the cocktail into a martini glass.",
-                    "Garnish with a twist of lime.",
-                    "Sip and enjoy this classic and sophisticated cocktail!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Ethan",
-                      "comment": "Cosmopolitan is my favorite cocktail, and this recipe is spot-on. Perfect for girls' night!"
-                    },
-                    {
-                      "name": "Ava",
-                      "comment": "I love the vibrant color of this cosmopolitan. It's as delicious as it looks!"
-                    },
-                    {
-                      "name": "Mason",
-                      "comment": "This cosmopolitan has the perfect balance of sweet and tart flavors. I highly recommend it."
-                    }
-                  ]
+                  "name": "Sarah",
+                  "comment": "Delicious and healthy dessert option. Will make it again."
+                }
+              ]
+            },
+            {
+              "id":3,
+              "name": "Apple Crisp",
+              "picture": "apple_crisp.jpg",
+              "description": "Warm and comforting apple dessert with a crunchy oat topping. Best served with a scoop of vanilla ice cream.",
+              "ingredients": [
+                "4 cups sliced apples",
+                "1 tablespoon lemon juice",
+                "1/4 cup granulated sugar",
+                "1/2 teaspoon ground cinnamon",
+                "1/2 cup all-purpose flour",
+                "1/2 cup rolled oats",
+                "1/2 cup brown sugar",
+                "1/4 cup cold unsalted butter, cubed",
+                "Vanilla ice cream for serving"
+              ],
+              "directions": [
+                "Preheat the oven to 375°F (190°C). Grease a baking dish with butter or cooking spray.",
+                "In a large bowl, toss the sliced apples with lemon juice, granulated sugar, and ground cinnamon.",
+                "Transfer the apple mixture to the greased baking dish, spreading it out evenly.",
+                "In a separate bowl, combine the all-purpose flour, rolled oats, and brown sugar.",
+                "Add the cold cubed butter to the flour mixture and use your fingers or a pastry cutter to cut it into the dry ingredients until the mixture resembles coarse crumbs.",
+                "Sprinkle the oat topping evenly over the apples in the baking dish.",
+                "Bake in the preheated oven for 30-35 minutes, or until the topping is golden brown and the apples are tender.",
+                "Remove from the oven and let it cool for a few minutes.",
+                "Serve the apple crisp warm with a scoop of vanilla ice cream.",
+                "Enjoy this comforting and delicious dessert!"
+              ],
+              "comments": [
+                {
+                  "name": "Noah",
+                  "comment": "Apple crisp is one of my favorite fall desserts, and this recipe does not disappoint."
                 },
                 {
-                  "id":5,
-                  "name": "Old Fashioned",
-                  "picture": "old_fashioned.jpg",
-                  "description": "Classic whiskey cocktail made with bourbon or rye, sugar, bitters, and a twist of citrus peel.",
-                  "ingredients": [
-                    "2 oz bourbon or rye whiskey",
-                    "1 sugar cube",
-                    "2-3 dashes of bitters",
-                    "Orange twist",
-                    "Ice cubes"
-                  ],
-                  "directions": [
-                    "Place the sugar cube in an old fashioned glass.",
-                    "Add 2-3 dashes of bitters onto the sugar cube.",
-                    "Muddle the sugar and bitters until well mixed.",
-                    "Add a few ice cubes to the glass.",
-                    "Pour the whiskey over the ice cubes.",
-                    "Stir gently to combine the ingredients.",
-                    "Garnish with an orange twist.",
-                    "Savor this classic and timeless cocktail!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Emma",
-                      "comment": "The old fashioned is a true classic. This recipe captures its essence perfectly."
-                    },
-                    {
-                      "name": "Liam",
-                      "comment": "As a whiskey lover, the old fashioned is my go-to cocktail. This recipe is superb!"
-                    },
-                    {
-                      "name": "Olivia",
-                      "comment": "The combination of sugar, bitters, and whiskey is pure magic. This old fashioned is exceptional."
-                    }
-                  ]
+                  "name": "Mia",
+                  "comment": "The combination of warm apples, crunchy topping, and cold ice cream is simply heavenly."
                 },
                 {
-                  "id":6,
-                  "name": "Pina Colada",
-                  "picture": "pina_colada.jpg",
-                  "description": "Tropical cocktail with rum, pineapple juice, coconut cream, and a splash of lime juice.",
-                  "ingredients": [
-                    "2 oz white rum",
-                    "4 oz pineapple juice",
-                    "2 oz coconut cream",
-                    "1 oz fresh lime juice",
-                    "Pineapple wedge for garnish",
-                    "Maraschino cherry for garnish"
-                  ],
-                  "directions": [
-                    "Fill a blender with ice cubes.",
-                    "Add rum, pineapple juice, coconut cream, and lime juice to the blender.",
-                    "Blend until smooth and creamy.",
-                    "Pour the mixture into a glass.",
-                    "Garnish with a pineapple wedge and a maraschino cherry.",
-                    "Sit back, relax, and enjoy this tropical delight!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Sophia",
-                      "comment": "Pina colada takes me straight to the beach. This recipe is like a vacation in a glass."
-                    },
-                    {
-                      "name": "Ethan",
-                      "comment": "The combination of pineapple, coconut, and rum is irresistible. This pina colada is pure bliss."
-                    },
-                    {
-                      "name": "Ava",
-                      "comment": "I love the creamy texture and tropical flavors of this pina colada. It's a fantastic summer cocktail."
-                    }
-                  ]
+                  "name": "Lucas",
+                  "comment": "This apple crisp is the perfect balance of sweet, tart, and crispy. I love every bite!"
+                }
+              ]
+            },
+            {
+              "id":4,
+              "name": "Strawberry Shortcake",
+              "picture": "strawberry_shortcake.jpg",
+              "description": "Classic dessert made with buttery shortcakes, fresh strawberries, and whipped cream.",
+              "ingredients": [
+                "2 cups sliced strawberries",
+                "2 tablespoons granulated sugar",
+                "2 cups all-purpose flour",
+                "1/4 cup granulated sugar",
+                "1 tablespoon baking powder",
+                "1/2 teaspoon salt",
+                "1/2 cup unsalted butter, cold and cubed",
+                "2/3 cup milk",
+                "Whipped cream for serving",
+                "Fresh mint leaves for garnish"
+              ],
+              "directions": [
+                "In a bowl, combine the sliced strawberries and granulated sugar. Toss well and let them macerate for at least 15 minutes.",
+                "Preheat the oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+                "In a large bowl, whisk together the all-purpose flour, granulated sugar, baking powder, and salt.",
+                "Add the cold cubed butter to the flour mixture. Use your fingers or a pastry cutter to cut the butter into the dry ingredients until the mixture resembles coarse crumbs.",
+                "Gradually pour in the milk, stirring until just combined. Do not overmix.",
+                "Turn the dough out onto a lightly floured surface. Gently knead it a few times until it comes together.",
+                "Pat the dough into a 1-inch thick round. Use a biscuit cutter to cut out shortcakes.",
+                "Place the shortcakes onto the prepared baking sheet, spacing them apart.",
+                "Bake in the preheated oven for 12-15 minutes, or until golden brown.",
+                "Remove from the oven and let the shortcakes cool slightly.",
+                "To assemble, split the shortcakes in half horizontally. Spoon the macerated strawberries onto the bottom half of each shortcake.",
+                "Top with whipped cream and place the other half of the shortcake on top.",
+                "Garnish with fresh mint leaves.",
+                "Serve the strawberry shortcakes immediately.",
+                "Enjoy this classic and delightful dessert!"
+              ],
+              "comments": [
+                {
+                  "name": "Oliver",
+                  "comment": "Strawberry shortcake reminds me of summers. This recipe brings back so many memories."
                 },
                 {
-                  "id":7,
-                  "name": "Negroni",
-                  "picture": "negroni.jpg",
-                  "description": "Bitter and aromatic cocktail made with equal parts gin, Campari, and sweet vermouth.",
-                  "ingredients": [
-                    "1 oz gin",
-                    "1 oz Campari",
-                    "1 oz sweet vermouth",
-                    "Orange twist for garnish",
-                    "Ice cubes"
-                  ],
-                  "directions": [
-                    "Fill a mixing glass with ice cubes.",
-                    "Add gin, Campari, and sweet vermouth to the glass.",
-                    "Stir gently for about 30 seconds to chill and dilute the cocktail.",
-                    "Strain the cocktail into a rocks glass filled with ice cubes.",
-                    "Garnish with an orange twist.",
-                    "Sip and savor the bold flavors of this classic negroni!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Mason",
-                      "comment": "Negroni is an acquired taste, but if you love bitter cocktails, this recipe won't disappoint."
-                    },
-                    {
-                      "name": "Emma",
-                      "comment": "The balance of flavors in this negroni is perfect. A must-try for cocktail enthusiasts!"
-                    },
-                    {
-                      "name": "Henry",
-                      "comment": "I enjoy the bitter and aromatic notes of this negroni. It's a sophisticated and elegant cocktail."
-                    }
-                  ]
+                  "name": "Ella",
+                  "comment": "The homemade shortcakes are tender and buttery, and the juicy strawberries make it perfect."
                 },
                 {
-                  "id":8,
-                  "name": "Margarita",
-                  "picture": "margarita.jpg",
-                  "description": "Classic tequila cocktail with lime juice and orange liqueur, served with a salt rim.",
-                  "ingredients": [
-                    "2 oz tequila",
-                    "1 oz fresh lime juice",
-                    "1 oz orange liqueur",
-                    "Salt for rimming",
-                    "Lime wedge for garnish",
-                    "Ice cubes"
-                  ],
-                  "directions": [
-                    "Rim a margarita glass with salt by moistening the rim with a lime wedge and dipping it in salt.",
-                    "Fill a shaker with ice cubes.",
-                    "Add tequila, lime juice, and orange liqueur to the shaker.",
-                    "Shake vigorously until well chilled.",
-                    "Strain the cocktail into the salt-rimmed glass filled with ice cubes.",
-                    "Garnish with a lime wedge.",
-                    "Sip and enjoy this tangy and refreshing margarita!"
-                  ],
-                  "comments": [
-                    {
-                      "name": "Charlotte",
-                      "comment": "Margarita is a classic for a reason. This recipe hits all the right notes. Cheers!"
-                    },
-                    {
-                      "name": "Oliver",
-                      "comment": "The balance of tequila, lime, and orange liqueur is on point in this margarita. A true crowd-pleaser!"
-                    },
-                    {
-                      "name": "Sophia",
-                      "comment": "This margarita is so refreshing and zesty. It's the perfect drink for summer parties."
-                    }
-                  ]
-                }  
-        ]
-      }
+                  "name": "Aiden",
+                  "comment": "Strawberry shortcake is a timeless dessert, and this recipe is absolutely scrumptious."
+                }
+              ]
+            },
+            {
+              "id":5,
+              "name": "Banana Bread",
+              "picture": "banana_bread.jpg",
+              "description": "Moist and flavorful banana bread that's perfect for breakfast or as a snack.",
+              "ingredients": [
+                "2 cups all-purpose flour",
+                "1 teaspoon baking soda",
+                "1/4 teaspoon salt",
+                "1/2 cup unsalted butter, softened",
+                "1 cup granulated sugar",
+                "2 large eggs",
+                "4 ripe bananas, mashed",
+                "1/4 cup milk",
+                "1 teaspoon vanilla extract",
+                "1/2 cup chopped walnuts (optional)"
+              ],
+              "directions": [
+                "Preheat the oven to 350°F (175°C). Grease a 9x5-inch loaf pan.",
+                "In a medium bowl, whisk together the all-purpose flour, baking soda, and salt.",
+                "In a large bowl, cream together the softened butter and granulated sugar until light and fluffy.",
+                "Beat in the eggs, one at a time, followed by the mashed bananas.",
+                "Mix in the milk and vanilla extract.",
+                "Gradually add the dry ingredients to the wet ingredients, mixing until just combined. Do not overmix.",
+                "If using, fold in the chopped walnuts.",
+                "Pour the batter into the greased loaf pan and spread it out evenly.",
+                "Bake in the preheated oven for 60-65 minutes, or until a toothpick inserted into the center comes out clean.",
+                "Remove from the oven and let the banana bread cool in the pan for 10 minutes.",
+                "Transfer the bread to a wire rack to cool completely.",
+                "Slice and serve the banana bread.",
+                "Enjoy this moist and delicious treat!"
+              ],
+              "comments": [
+                {
+                  "name": "Liam",
+                  "comment": "Banana bread is my ultimate comfort food. This recipe is a winner!"
+                },
+                {
+                  "name": "Ava",
+                  "comment": "I love how moist and flavorful this banana bread is. It's perfect with a cup of coffee."
+                },
+                {
+                  "name": "Mason",
+                  "comment": "The addition of walnuts adds a nice crunch to this classic banana bread. I can't get enough of it."
+                }
+              ]
+            },
+            {
+              "id":6,
+              "name": "Peach Cobbler",
+              "picture": "peach_cobbler.jpg",
+              "description": "A delightful summer dessert with juicy peaches and a buttery biscuit topping.",
+              "ingredients": [
+                "4 cups sliced peaches",
+                "1/2 cup granulated sugar",
+                "1 tablespoon lemon juice",
+                "1 teaspoon vanilla extract",
+                "1 cup all-purpose flour",
+                "1/2 cup granulated sugar",
+                "1 teaspoon baking powder",
+                "1/2 teaspoon salt",
+                "1/2 cup unsalted butter, cold and cubed",
+                "1/4 cup boiling water",
+                "1 teaspoon cinnamon (optional)",
+                "Vanilla ice cream for serving"
+              ],
+              "directions": [
+                "Preheat the oven to 425°F (220°C). Grease a baking dish with butter or cooking spray.",
+                "In a large bowl, combine the sliced peaches, granulated sugar, lemon juice, and vanilla extract. Toss well.",
+                "Transfer the peach mixture to the greased baking dish, spreading it out evenly.",
+                "In a separate bowl, whisk together the all-purpose flour, granulated sugar, baking powder, and salt.",
+                "Add the cold cubed butter to the flour mixture. Use your fingers or a pastry cutter to cut the butter into the dry ingredients until the mixture resembles coarse crumbs.",
+                "Gradually pour in the boiling water, stirring until just combined.",
+                "Drop spoonfuls of the biscuit dough on top of the peaches. Sprinkle with cinnamon, if desired.",
+                "Bake in the preheated oven for 25-30 minutes, or until the topping is golden brown and the peaches are bubbly.",
+                "Remove from the oven and let the peach cobbler cool for a few minutes.",
+                "Serve warm with a scoop of vanilla ice cream.",
+                "Enjoy this comforting and fruity dessert!"
+              ],
+              "comments": [
+                {
+                  "name": "Charlotte",
+                  "comment": "Peach cobbler is the epitome of summer. This recipe brings out the natural sweetness of the peaches."
+                },
+                {
+                  "name": "Henry",
+                  "comment": "The buttery biscuit topping is the perfect complement to the juicy peaches. Absolutely delicious!"
+                },
+                {
+                  "name": "Emma",
+                  "comment": "I love how the peach juices soak into the biscuit topping. It's like a taste of heaven."
+                }
+              ]
+            }
+    ],
+    "cocktails":[
+        {
+            "id":1,
+            "name": "Mojito",
+            "picture": "mojito.jpg",
+            "description": "A refreshing and minty cocktail made with rum, lime juice, sugar, soda water, and fresh mint leaves.",
+            "ingredients": [
+              "2 oz white rum",
+              "1 oz lime juice",
+              "2 teaspoons granulated sugar",
+              "Soda water",
+              "8-10 fresh mint leaves",
+              "Crushed ice",
+              "Lime slices and additional mint leaves for garnish"
+            ],
+            "directions": [
+              "In a glass, muddle the mint leaves, lime juice, and sugar together until the mint is fragrant and the sugar is dissolved.",
+              "Fill the glass with crushed ice.",
+              "Pour in the white rum and stir well.",
+              "Top with soda water and gently stir to combine.",
+              "Garnish with lime slices and additional mint leaves.",
+              "Serve immediately and enjoy!"
+            ],
+            "comments": [
+              {
+                "name": "John",
+                "comment": "This dip is always a hit at parties!"
+              },
+              {
+                "name": "Amy",
+                "comment": "I added some diced jalapenos for an extra kick. Delicious!"
+              },
+              {
+                "name": "David",
+                "comment": "Creamy and cheesy, the perfect appetizer."
+              }
+            ]
+          },
+          {
+              "id":2,
+              "name": "Classic Margarita",
+              "picture": "classic_margarita.jpg",
+              "description": "A classic and refreshing cocktail made with tequila, lime juice, and orange liqueur.",
+              "ingredients": [
+                "2 oz tequila",
+                "1 oz lime juice",
+                "1 oz triple sec or orange liqueur",
+                "Salt for rimming the glass",
+                "Ice cubes",
+                "Lime wedges for garnish"
+              ],
+              "directions": [
+                "Rim the glass with salt by running a lime wedge around the rim and dipping it into salt.",
+                "Fill the glass with ice cubes.",
+                "In a shaker, combine the tequila, lime juice, and triple sec with ice.",
+                "Shake well to mix and chill the ingredients.",
+                "Strain the mixture into the prepared glass.",
+                "Garnish with a lime wedge.",
+                "Serve and enjoy!"
+              ],
+              "comments": [
+                {
+                  "name": "Michael",
+                  "comment": "A classic margarita done right. Cheers!"
+                },
+                {
+                  "name": "Linda",
+                  "comment": "Perfect balance of flavors. Love it!"
+                },
+                {
+                  "name": "John",
+                  "comment": "The ultimate summer cocktail."
+                }
+              ]
+            },
+            {
+              "id":3,
+              "name": "Mojito",
+              "picture": "mojito.jpg",
+              "description": "Refreshing cocktail made with rum, lime juice, fresh mint, sugar, and soda water.",
+              "ingredients": [
+                "2 oz white rum",
+                "1 oz fresh lime juice",
+                "2 teaspoons sugar",
+                "8-10 fresh mint leaves",
+                "Club soda",
+                "Crushed ice"
+              ],
+              "directions": [
+                "In a glass, muddle the mint leaves and sugar until the leaves release their aroma.",
+                "Add the lime juice and rum to the glass.",
+                "Fill the glass with crushed ice and stir well.",
+                "Top it off with club soda.",
+                "Garnish with a sprig of mint and a lime wedge.",
+                "Enjoy this refreshing and minty cocktail!"
+              ],
+              "comments": [
+                {
+                  "name": "Olivia",
+                  "comment": "Mojito is my go-to cocktail for hot summer days. This recipe is fantastic!"
+                },
+                {
+                  "name": "Liam",
+                  "comment": "The combination of fresh mint and lime is so invigorating. I love this mojito recipe!"
+                },
+                {
+                  "name": "Sophia",
+                  "comment": "This mojito is perfectly balanced and not overly sweet. It's simply delightful."
+                }
+              ]
+            },
+            {
+              "id":4,
+              "name": "Cosmopolitan",
+              "picture": "cosmopolitan.jpg",
+              "description": "Classic cocktail with vodka, cranberry juice, orange liqueur, and a splash of lime juice.",
+              "ingredients": [
+                "1.5 oz vodka",
+                "1 oz cranberry juice",
+                "0.5 oz orange liqueur",
+                "0.5 oz fresh lime juice",
+                "Lime twist for garnish"
+              ],
+              "directions": [
+                "Fill a shaker with ice cubes.",
+                "Add vodka, cranberry juice, orange liqueur, and lime juice to the shaker.",
+                "Shake well until chilled.",
+                "Strain the cocktail into a martini glass.",
+                "Garnish with a twist of lime.",
+                "Sip and enjoy this classic and sophisticated cocktail!"
+              ],
+              "comments": [
+                {
+                  "name": "Ethan",
+                  "comment": "Cosmopolitan is my favorite cocktail, and this recipe is spot-on. Perfect for girls' night!"
+                },
+                {
+                  "name": "Ava",
+                  "comment": "I love the vibrant color of this cosmopolitan. It's as delicious as it looks!"
+                },
+                {
+                  "name": "Mason",
+                  "comment": "This cosmopolitan has the perfect balance of sweet and tart flavors. I highly recommend it."
+                }
+              ]
+            },
+            {
+              "id":5,
+              "name": "Old Fashioned",
+              "picture": "old_fashioned.jpg",
+              "description": "Classic whiskey cocktail made with bourbon or rye, sugar, bitters, and a twist of citrus peel.",
+              "ingredients": [
+                "2 oz bourbon or rye whiskey",
+                "1 sugar cube",
+                "2-3 dashes of bitters",
+                "Orange twist",
+                "Ice cubes"
+              ],
+              "directions": [
+                "Place the sugar cube in an old fashioned glass.",
+                "Add 2-3 dashes of bitters onto the sugar cube.",
+                "Muddle the sugar and bitters until well mixed.",
+                "Add a few ice cubes to the glass.",
+                "Pour the whiskey over the ice cubes.",
+                "Stir gently to combine the ingredients.",
+                "Garnish with an orange twist.",
+                "Savor this classic and timeless cocktail!"
+              ],
+              "comments": [
+                {
+                  "name": "Emma",
+                  "comment": "The old fashioned is a true classic. This recipe captures its essence perfectly."
+                },
+                {
+                  "name": "Liam",
+                  "comment": "As a whiskey lover, the old fashioned is my go-to cocktail. This recipe is superb!"
+                },
+                {
+                  "name": "Olivia",
+                  "comment": "The combination of sugar, bitters, and whiskey is pure magic. This old fashioned is exceptional."
+                }
+              ]
+            },
+            {
+              "id":6,
+              "name": "Pina Colada",
+              "picture": "pina_colada.jpg",
+              "description": "Tropical cocktail with rum, pineapple juice, coconut cream, and a splash of lime juice.",
+              "ingredients": [
+                "2 oz white rum",
+                "4 oz pineapple juice",
+                "2 oz coconut cream",
+                "1 oz fresh lime juice",
+                "Pineapple wedge for garnish",
+                "Maraschino cherry for garnish"
+              ],
+              "directions": [
+                "Fill a blender with ice cubes.",
+                "Add rum, pineapple juice, coconut cream, and lime juice to the blender.",
+                "Blend until smooth and creamy.",
+                "Pour the mixture into a glass.",
+                "Garnish with a pineapple wedge and a maraschino cherry.",
+                "Sit back, relax, and enjoy this tropical delight!"
+              ],
+              "comments": [
+                {
+                  "name": "Sophia",
+                  "comment": "Pina colada takes me straight to the beach. This recipe is like a vacation in a glass."
+                },
+                {
+                  "name": "Ethan",
+                  "comment": "The combination of pineapple, coconut, and rum is irresistible. This pina colada is pure bliss."
+                },
+                {
+                  "name": "Ava",
+                  "comment": "I love the creamy texture and tropical flavors of this pina colada. It's a fantastic summer cocktail."
+                }
+              ]
+            },
+            {
+              "id":7,
+              "name": "Negroni",
+              "picture": "negroni.jpg",
+              "description": "Bitter and aromatic cocktail made with equal parts gin, Campari, and sweet vermouth.",
+              "ingredients": [
+                "1 oz gin",
+                "1 oz Campari",
+                "1 oz sweet vermouth",
+                "Orange twist for garnish",
+                "Ice cubes"
+              ],
+              "directions": [
+                "Fill a mixing glass with ice cubes.",
+                "Add gin, Campari, and sweet vermouth to the glass.",
+                "Stir gently for about 30 seconds to chill and dilute the cocktail.",
+                "Strain the cocktail into a rocks glass filled with ice cubes.",
+                "Garnish with an orange twist.",
+                "Sip and savor the bold flavors of this classic negroni!"
+              ],
+              "comments": [
+                {
+                  "name": "Mason",
+                  "comment": "Negroni is an acquired taste, but if you love bitter cocktails, this recipe won't disappoint."
+                },
+                {
+                  "name": "Emma",
+                  "comment": "The balance of flavors in this negroni is perfect. A must-try for cocktail enthusiasts!"
+                },
+                {
+                  "name": "Henry",
+                  "comment": "I enjoy the bitter and aromatic notes of this negroni. It's a sophisticated and elegant cocktail."
+                }
+              ]
+            },
+            {
+              "id":8,
+              "name": "Margarita",
+              "picture": "margarita.jpg",
+              "description": "Classic tequila cocktail with lime juice and orange liqueur, served with a salt rim.",
+              "ingredients": [
+                "2 oz tequila",
+                "1 oz fresh lime juice",
+                "1 oz orange liqueur",
+                "Salt for rimming",
+                "Lime wedge for garnish",
+                "Ice cubes"
+              ],
+              "directions": [
+                "Rim a margarita glass with salt by moistening the rim with a lime wedge and dipping it in salt.",
+                "Fill a shaker with ice cubes.",
+                "Add tequila, lime juice, and orange liqueur to the shaker.",
+                "Shake vigorously until well chilled.",
+                "Strain the cocktail into the salt-rimmed glass filled with ice cubes.",
+                "Garnish with a lime wedge.",
+                "Sip and enjoy this tangy and refreshing margarita!"
+              ],
+              "comments": [
+                {
+                  "name": "Charlotte",
+                  "comment": "Margarita is a classic for a reason. This recipe hits all the right notes. Cheers!"
+                },
+                {
+                  "name": "Oliver",
+                  "comment": "The balance of tequila, lime, and orange liqueur is on point in this margarita. A true crowd-pleaser!"
+                },
+                {
+                  "name": "Sophia",
+                  "comment": "This margarita is so refreshing and zesty. It's the perfect drink for summer parties."
+                }
+              ]
+            }  
     ]
-  }
+}
