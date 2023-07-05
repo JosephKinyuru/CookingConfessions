@@ -3,7 +3,7 @@
         {
             "id":1,
             "name": "Spinach and Artichoke Dip",
-            "picture": "spinach_artichoke_dip.jpg",
+            "picture": "https://images.unsplash.com/photo-1600728256404-aaa448921ad9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
             "description": "A creamy and flavorful dip made with spinach, artichokes, and cheese. Perfect for dipping tortilla chips or bread.",
             "ingredients": [
               "1 cup frozen spinach, thawed and drained",
@@ -41,7 +41,7 @@
           {
             "id":2,
             "name": "Caprese Skewers",
-            "picture": "caprese_skewers.jpg",
+            "picture": "https://images.unsplash.com/photo-1529312266912-b33cfce2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
             "description": "A refreshing and simple appetizer featuring cherry tomatoes, fresh mozzarella, and basil leaves, drizzled with balsamic glaze.",
             "ingredients": [
               "16 cherry tomatoes",
@@ -76,7 +76,7 @@
           {
             "id":3,
             "name": "Bruschetta",
-            "picture": "bruschetta.jpg",
+            "picture": "https://images.unsplash.com/photo-1506280754576-f6fa8a873550?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
             "description": "A classic Italian appetizer featuring grilled bread topped with fresh tomatoes, basil, garlic, and olive oil.",
             "ingredients": [
               "Baguette or Italian bread",
@@ -112,7 +112,7 @@
           {
             "id":4,
             "name": "Chicken Satay",
-            "picture": "chicken_satay.jpg",
+            "picture": "https://images.unsplash.com/photo-1560492474-b4f06aeb7553?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
             "description": "Tender chicken skewers marinated in a flavorful blend of spices, grilled to perfection, and served with a peanut dipping sauce.",
             "ingredients": [
               "1 lb boneless, skinless chicken breasts, cut into thin strips",
@@ -151,7 +151,7 @@
           {
             "id":5,
             "name": "Crispy Fried Calamari",
-            "picture": "fried_calamari.jpg",
+            "picture": "https://images.unsplash.com/photo-1639024469010-44d77e559f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
             "description": "Tender calamari rings coated in a crispy batter and deep-fried until golden brown. Served with marinara sauce or aioli.",
             "ingredients": [
               "1 lb calamari rings",
@@ -190,7 +190,7 @@
           {
             "id":6,
             "name": "Mozzarella Sticks",
-            "picture": "mozzarella_sticks.jpg",
+            "picture": "https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "description": "Golden and crispy breaded mozzarella sticks with a gooey and melty cheese center. Served with marinara sauce for dipping.",
             "ingredients": [
               "12 mozzarella sticks",
@@ -230,7 +230,7 @@
           {
             "id":7,
             "name": "Guacamole",
-            "picture": "guacamole.jpg",
+            "picture": "https://images.unsplash.com/photo-1595016111459-799a195e7452?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80",
             "description": "A creamy and flavorful dip made with ripe avocados, tomatoes, onions, jalapeños, lime juice, and cilantro. Served with tortilla chips.",
             "ingredients": [
               "2 ripe avocados",
@@ -272,7 +272,7 @@
         {
             "id":1,
             "name": "Chicken Alfredo Pasta",
-            "picture": "chicken_alfredo_pasta.jpg",
+            "picture": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
             "description": "A classic Italian dish featuring tender chicken and creamy Alfredo sauce tossed with pasta.",
             "ingredients": [
               "8 oz fettuccine pasta",
@@ -312,7 +312,7 @@
           {
               "id":2,
               "name": "Beef Stir-Fry",
-              "picture": "beef_stir_fry.jpg",
+              "picture": "https://images.unsplash.com/photo-1548869206-93b036288d7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=695&q=80",
               "description": "A flavorful and colorful stir-fry dish with tender beef, crisp vegetables, and a savory sauce.",
               "ingredients": [
                 "1 lb beef sirloin, thinly sliced",
@@ -355,7 +355,7 @@
             {
                     "id":3,
                     "name": "Spaghetti Carbonara",
-                    "picture": "spaghetti_carbonara.jpg",
+                    "picture": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
                     "description": "A classic Italian pasta dish made with spaghetti, pancetta or bacon, eggs, Parmesan cheese, and black pepper.",
                     "ingredients": [
                       "8 oz spaghetti",
@@ -395,7 +395,7 @@
                   {
                     "id":4,
                     "name": "Chicken Parmesan",
-                    "picture": "chicken_parmesan.jpg",
+                    "picture": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
                     "description": "Tender breaded chicken breasts topped with marinara sauce, melted mozzarella cheese, and Parmesan cheese. Served over spaghetti.",
                     "ingredients": [
                       "2 boneless, skinless chicken breasts",
@@ -441,7 +441,7 @@
                   {
                     "id":5,
                     "name": "Vegetable Curry",
-                    "picture": "vegetable_curry.jpg",
+                    "picture": "https://images.unsplash.com/photo-1596560314766-08c0c6890024?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
                     "description": "A flavorful and hearty curry made with a variety of vegetables, aromatic spices, and coconut milk. Served with rice or naan bread.",
                     "ingredients": [
                       "1 tablespoon vegetable oil",
@@ -492,7 +492,7 @@
                   {
                     "id":6,
                     "name": "Beef Tacos",
-                    "picture": "beef_tacos.jpg",
+                    "picture": "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1934&q=80",
                     "description": "Delicious and satisfying beef tacos with seasoned ground beef, crispy taco shells, and all your favorite toppings.",
                     "ingredients": [
                       "1 lb ground beef",
@@ -534,7 +534,7 @@
                   {
                     "id":7,
                     "name": "Lemon Herb Roast Chicken",
-                    "picture": "roast_chicken.jpg",
+                    "picture": "https://images.unsplash.com/photo-1615557960916-5f4791effe9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
                     "description": "A juicy and flavorful roast chicken with a zesty lemon and herb marinade. Perfect for a Sunday dinner or special occasion.",
                     "ingredients": [
                       "1 whole chicken (about 4-5 lbs)",
@@ -578,11 +578,11 @@
                     ]
                   } 
     ],
-    "deserts":[
+    "desserts":[
         {
             "id":1,
             "name": "Chocolate Lava Cake",
-            "picture": "chocolate_lava_cake.jpg",
+            "picture": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Lava-Chocolate-Cakes_EXPS_BOBMZ22_43967_E10_06_1b_v2.jpg",
             "description": "Indulge in a decadent and gooey chocolate lava cake with a warm molten center.",
             "ingredients": [
               "1/2 cup unsalted butter",
@@ -625,7 +625,7 @@
           {
               "id":2,
               "name": "Berry Parfait",
-              "picture": "berry_parfait.jpg",
+              "picture": "https://www.thegreedybelly.com/wp-content/uploads/2018/03/IMG_0422-682x1024.jpg",
               "description": "A delightful and layered dessert with fresh berries, yogurt, and crunchy granola.",
               "ingredients": [
                 "1 cup mixed berries (strawberries, blueberries, raspberries)",
@@ -662,7 +662,7 @@
             {
               "id":3,
               "name": "Apple Crisp",
-              "picture": "apple_crisp.jpg",
+              "picture": "https://tastesbetterfromscratch.com/wp-content/uploads/2017/11/Apple-Crisp-Web-19-500x500.jpg",
               "description": "Warm and comforting apple dessert with a crunchy oat topping. Best served with a scoop of vanilla ice cream.",
               "ingredients": [
                 "4 cups sliced apples",
@@ -705,7 +705,7 @@
             {
               "id":4,
               "name": "Strawberry Shortcake",
-              "picture": "strawberry_shortcake.jpg",
+              "picture": "https://thecozyplum.com/wp-content/uploads/2021/04/1x1-strawberry-shortcake-layer-cake-1.jpg",
               "description": "Classic dessert made with buttery shortcakes, fresh strawberries, and whipped cream.",
               "ingredients": [
                 "2 cups sliced strawberries",
@@ -754,7 +754,7 @@
             {
               "id":5,
               "name": "Banana Bread",
-              "picture": "banana_bread.jpg",
+              "picture": "https://images.unsplash.com/photo-1606101204735-85ad3a8bfd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
               "description": "Moist and flavorful banana bread that's perfect for breakfast or as a snack.",
               "ingredients": [
                 "2 cups all-purpose flour",
@@ -801,7 +801,7 @@
             {
               "id":6,
               "name": "Peach Cobbler",
-              "picture": "peach_cobbler.jpg",
+              "picture": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Peach-Cobbler-for-Two_EXPS_CF219_10849_B12_13_14b.jpg",
               "description": "A delightful summer dessert with juicy peaches and a buttery biscuit topping.",
               "ingredients": [
                 "4 cups sliced peaches",
@@ -850,7 +850,7 @@
         {
             "id":1,
             "name": "Mojito",
-            "picture": "mojito.jpg",
+            "picture": "https://images.unsplash.com/photo-1608981618938-d8a334ae9e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
             "description": "A refreshing and minty cocktail made with rum, lime juice, sugar, soda water, and fresh mint leaves.",
             "ingredients": [
               "2 oz white rum",
@@ -887,7 +887,7 @@
           {
               "id":2,
               "name": "Classic Margarita",
-              "picture": "classic_margarita.jpg",
+              "picture": "https://images.unsplash.com/photo-1582457601528-5f8757143fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
               "description": "A classic and refreshing cocktail made with tequila, lime juice, and orange liqueur.",
               "ingredients": [
                 "2 oz tequila",
@@ -923,44 +923,8 @@
             },
             {
               "id":3,
-              "name": "Mojito",
-              "picture": "mojito.jpg",
-              "description": "Refreshing cocktail made with rum, lime juice, fresh mint, sugar, and soda water.",
-              "ingredients": [
-                "2 oz white rum",
-                "1 oz fresh lime juice",
-                "2 teaspoons sugar",
-                "8-10 fresh mint leaves",
-                "Club soda",
-                "Crushed ice"
-              ],
-              "directions": [
-                "In a glass, muddle the mint leaves and sugar until the leaves release their aroma.",
-                "Add the lime juice and rum to the glass.",
-                "Fill the glass with crushed ice and stir well.",
-                "Top it off with club soda.",
-                "Garnish with a sprig of mint and a lime wedge.",
-                "Enjoy this refreshing and minty cocktail!"
-              ],
-              "comments": [
-                {
-                  "name": "Olivia",
-                  "comment": "Mojito is my go-to cocktail for hot summer days. This recipe is fantastic!"
-                },
-                {
-                  "name": "Liam",
-                  "comment": "The combination of fresh mint and lime is so invigorating. I love this mojito recipe!"
-                },
-                {
-                  "name": "Sophia",
-                  "comment": "This mojito is perfectly balanced and not overly sweet. It's simply delightful."
-                }
-              ]
-            },
-            {
-              "id":4,
               "name": "Cosmopolitan",
-              "picture": "cosmopolitan.jpg",
+              "picture": "https://images.unsplash.com/photo-1579114855644-4868b4fa4de7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
               "description": "Classic cocktail with vodka, cranberry juice, orange liqueur, and a splash of lime juice.",
               "ingredients": [
                 "1.5 oz vodka",
@@ -993,9 +957,9 @@
               ]
             },
             {
-              "id":5,
+              "id":4,
               "name": "Old Fashioned",
-              "picture": "old_fashioned.jpg",
+              "picture": "https://images.unsplash.com/photo-1628642551066-11f79288a424?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
               "description": "Classic whiskey cocktail made with bourbon or rye, sugar, bitters, and a twist of citrus peel.",
               "ingredients": [
                 "2 oz bourbon or rye whiskey",
@@ -1030,9 +994,9 @@
               ]
             },
             {
-              "id":6,
+              "id":5,
               "name": "Pina Colada",
-              "picture": "pina_colada.jpg",
+              "picture": "https://images.unsplash.com/photo-1607446045710-d5a8fd9bc1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
               "description": "Tropical cocktail with rum, pineapple juice, coconut cream, and a splash of lime juice.",
               "ingredients": [
                 "2 oz white rum",
@@ -1066,9 +1030,9 @@
               ]
             },
             {
-              "id":7,
+              "id":6,
               "name": "Negroni",
-              "picture": "negroni.jpg",
+              "picture": "https://www.tastingtable.com/img/gallery/classic-negroni-cocktail-recipe/intro-1660235760.jpg",
               "description": "Bitter and aromatic cocktail made with equal parts gin, Campari, and sweet vermouth.",
               "ingredients": [
                 "1 oz gin",
@@ -1101,9 +1065,9 @@
               ]
             },
             {
-              "id":8,
+              "id":7,
               "name": "Margarita",
-              "picture": "margarita.jpg",
+              "picture": "https://images.unsplash.com/photo-1544145945-b4744b209fc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
               "description": "Classic tequila cocktail with lime juice and orange liqueur, served with a salt rim.",
               "ingredients": [
                 "2 oz tequila",
