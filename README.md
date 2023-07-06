@@ -11,7 +11,7 @@ GPL
 - JavaScript
 - HTML
 - CSS
-- External API
+- External API (uses Render to host json server)
 
 # Project description
 
