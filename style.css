@@ -182,3 +182,32 @@ a.viewButton:hover ,a.viewButton.active {
   text-align: center;
 }
 
+.commentSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px; /* Add space between flex items */
+}
+
+.div4 {
+  flex-basis: 45%; /* Adjust the width of div4 as needed */
+  list-style-type: none;
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.div4 li {
+  list-style-type: disc; /* Change the list style for each comment */
+}
+
+.div5 {
+  flex-basis: 45%; /* Adjust the width of div5 as needed */
+  list-style-type: none;
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.div5 ul {
+  list-style-type: none;
+}
