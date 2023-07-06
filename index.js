@@ -76,8 +76,8 @@ const initialize = () => {
       clickedCategoryId = e.target.id;
       fetchFoodListData(clickedCategoryId);
     }
-    
-    function renderFullRecipe(recipe ) {
+
+    function renderFullRecipe(recipe, currentCategory ) {
       let card = document.createElement('li');
       card.className = 'fullRecipeCard';
       card.id = recipe.id;
@@ -187,14 +187,14 @@ const initialize = () => {
       let randomList = document.createElement(`ul`);
       let listItemForm = document.createElement(`li`);
       listItemForm.innerHTML =`
-      <form action="submit_comment.php" method="POST">
+      <form id="commentForm">
            <label for="name">Name:</label>
           <input type="text" style="border-radius:10px;" id="name" name="name" required><br><br>
 
           <label for="comment">Comment:</label><br>
           <textarea id="comment" style="border-radius:12px;" name="comment" rows="4" cols="50" required></textarea><br><br>
 
-          <button type="submit" style="background-color:#85C1E9; height:28px; width:120px; border-radius:20px; border: 1px solid black;" >Add comment</button>
+          <button id="buttonForComment"  type="submit" style="background-color:#85C1E9; height:28px; width:120px; border-radius:20px; border: 1px solid black;" >Add comment</button>
       </form>
       `;
 
@@ -203,6 +203,48 @@ const initialize = () => {
       //Append the title and comments list to div 5
       div5.appendChild(commentFormTitle);
       div5.appendChild(randomList);
+
+      // Add event listener for form submission
+      listItemForm.querySelector("#commentForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+    
+      // Geting information from comment form
+      const nameInput = document.getElementById("name");
+      const commentInput = document.getElementById("comment");
+      const name = nameInput.value;
+      const comment1 = commentInput.value;
+      
+      //Handling structure limitations due to json structure
+      const existingArray = recipe.comments;
+      const newObject = {
+        "name":`${name}`,
+        "comment":`${comment1}`
+      };
+
+      existingArray.push(newObject);
+
+      const patchPayLoad = {
+        comments:existingArray,
+      };
+      
+      //Patch request to server
+      fetch(`http://localhost:4000/${currentCategory}/${recipe.id}`,{
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+         },
+        body: JSON.stringify(patchPayLoad),
+      })
+      .then(()=>{
+        fetchFoodRecipe(currentCategory, recipe.id)
+      })
+      .catch(error => {
+        console.error(error);
+      })
+      // Clear the input fields if needed
+      nameInput.value = "";
+      commentInput.value = "";
+      });
 
       // Appending div4 and div5 to card2
       card2.appendChild(div4);
@@ -224,7 +266,7 @@ const initialize = () => {
       // Fetches one recipe
       fetch(`http://localhost:4000/${currentCategory}/${recipeId}`)      
       .then(resp => resp.json())
-      .then(recipe => renderFullRecipe(recipe))
+      .then(recipe => renderFullRecipe(recipe, currentCategory))
     }
     fetchFoodRecipe(currentCategory, recipeId)
 
@@ -242,6 +284,7 @@ const initialize = () => {
         currentCategory = e.target.id ;
         fetchFoodRecipe(currentCategory, recipeId);
       }
+      
   };
   
   document.addEventListener('DOMContentLoaded', initialize);
