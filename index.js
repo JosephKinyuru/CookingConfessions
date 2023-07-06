@@ -89,7 +89,7 @@ const initialize = () => {
       // Create the image element
       let image = document.createElement('img');
       image.src = recipe.picture;
-      image.alt = 'Image for Div 1';
+      image.alt = 'Image for food recipe on display';
     
       // Create the heading and description
       let heading = document.createElement('h2');
