@@ -2,6 +2,7 @@ const initialize = () => {
     const categories = document.querySelectorAll('.category');
     const recipeListDisplay = document.getElementById('recipeList');
     const fullRecipeDisplay = document.getElementById(`recipeFull`);
+    const commentsDisplay = document.getElementById(`commentsFood`)
   
     function renderFoodLists(recipe, clickedCategoryId) {                                             // Renders food objects into cards for first Section
       let card = document.createElement('li');
@@ -75,8 +76,8 @@ const initialize = () => {
       clickedCategoryId = e.target.id;
       fetchFoodListData(clickedCategoryId);
     }
-
-    function renderFullRecipe(recipe) {
+    
+    function renderFullRecipe(recipe ) {
       let card = document.createElement('li');
       card.className = 'fullRecipeCard';
       card.id = recipe.id;
@@ -148,7 +149,67 @@ const initialize = () => {
       card.appendChild(div3);
     
       // Append the card to the fullRecipeDisplay
-      fullRecipeDisplay.appendChild(card);                           
+      fullRecipeDisplay.appendChild(card); 
+      
+      let card2 = document.createElement(`li`);                       // Start of section 2 card
+      card2.className = `commentSection`;
+      card2.id = `${recipe.id}`;
+
+      //Creating div to show comments section
+      let div4 = document.createElement(`div`);
+      div4.className = `div4`;
+
+      //Create the title for comments
+      let commentsTitle = document.createElement('h3');
+      commentsTitle.textContent = 'Comments:';
+    
+      // Create the unordered list for comments
+      let commentsList = document.createElement('ul');
+      recipe.comments.forEach((comment) => {
+        let listItem2 = document.createElement('li');
+        listItem2.textContent = `${comment.name} : ${comment.comment}`;
+        commentsList.appendChild(listItem2);
+      });
+    
+      // Append the title and comments list to div4
+      div4.appendChild(commentsTitle);
+      div4.appendChild(commentsList);
+
+      //Create div for comment form
+      let div5 = document.createElement(`div`);
+      div5.className = `div5`;                                         //For .div5 list style should be none
+
+      //Creating the title for comments
+      let commentFormTitle = document.createElement(`h3`);
+      commentFormTitle.textContent = `Add Comment:`
+
+      //Creating the form for the add comments
+      let randomList = document.createElement(`ul`);
+      let listItemForm = document.createElement(`li`);
+      listItemForm.innerHTML =`
+      <form action="submit_comment.php" method="POST">
+           <label for="name">Name:</label>
+          <input type="text" style="border-radius:10px;" id="name" name="name" required><br><br>
+
+          <label for="comment">Comment:</label><br>
+          <textarea id="comment" style="border-radius:12px;" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+          <button type="submit" style="background-color:#85C1E9; height:28px; width:120px; border-radius:20px; border: 1px solid black;" >Add comment</button>
+      </form>
+      `;
+
+      randomList.appendChild(listItemForm);
+
+      //Append the title and comments list to div 5
+      div5.appendChild(commentFormTitle);
+      div5.appendChild(randomList);
+
+      // Appending div4 and div5 to card2
+      card2.appendChild(div4);
+      card2.appendChild(div5);
+
+      //Appending card2 to commentsDisplay
+      commentsDisplay.appendChild(card2);
     }
     
     
@@ -157,7 +218,8 @@ const initialize = () => {
     let recipeId = `1`;
     function fetchFoodRecipe(currentCategory , recipeId){
       //Removes previously displayed recipe
-      fullRecipeDisplay.innerHTML = ``;                             
+      fullRecipeDisplay.innerHTML = ``; 
+      commentsDisplay.innerHTML = ``;                            
 
       // Fetches one recipe
       fetch(`http://localhost:4000/${currentCategory}/${recipeId}`)      
