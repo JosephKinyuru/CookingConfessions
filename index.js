@@ -54,7 +54,7 @@ const initialize = () => {
     function fetchFoodListData(clickedCategoryId) {
       recipeListDisplay.innerHTML = '';                                 //Removes contents of previous category
 
-      fetch(`http://localhost:4000/${clickedCategoryId}`)
+      fetch(`https://recipesapi-q6gn.onrender.com/${clickedCategoryId}`)
         .then(resp => resp.json())
         .then(recipes => {
           recipes.forEach(recipe => renderFoodLists(recipe, clickedCategoryId));
@@ -228,7 +228,7 @@ const initialize = () => {
       };
       
       //Patch request to server
-      fetch(`http://localhost:4000/${currentCategory}/${recipe.id}`,{
+      fetch(`https://recipesapi-q6gn.onrender.com/${currentCategory}/${recipe.id}`,{
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -264,7 +264,7 @@ const initialize = () => {
       commentsDisplay.innerHTML = ``;                            
 
       // Fetches one recipe
-      fetch(`http://localhost:4000/${currentCategory}/${recipeId}`)      
+      fetch(`https://recipesapi-q6gn.onrender.com/${currentCategory}/${recipeId}`)      
       .then(resp => resp.json())
       .then(recipe => renderFullRecipe(recipe, currentCategory))
     }
