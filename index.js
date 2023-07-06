@@ -154,6 +154,7 @@ const initialize = () => {
     
     //Default displays for fullRecipe when site loads
     let currentCategory = `appetizers`;                              
+    let recipeId = `1`;
     function fetchFoodRecipe(currentCategory , recipeId){
       //Removes previously displayed recipe
       fullRecipeDisplay.innerHTML = ``;                             
