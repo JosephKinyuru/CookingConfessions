@@ -101,8 +101,35 @@ a.viewButton{
     background-color: #85C1E9;
 }
 
-a.viewButton:hover ,a.viewButton.clicked {
+a.viewButton:hover ,a.viewButton.active {
     background-color: #f2f2f2;
     color: #85C1E9;
 }
+
+.icon-container {
+  display: flex; 
+  justify-content: center; 
+}
+
+.icon-container i {
+  margin: 0 20px;
+  font-size: 30px;
+}
+
+.icon-info {
+  margin-top: 5px;
+}
+
+.icon-number {
+  font-size: 16px;
+  font-weight: bold;
+  color: #15317E;
+  margin-right: 5px;
+}
+
+.icon-text {
+  font-size: 14px;
+  color: #000000;
+}
+
   
