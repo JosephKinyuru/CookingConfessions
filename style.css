@@ -205,7 +205,7 @@ a.viewButton:hover ,a.viewButton.active {
 }
 
 .div5 {
-  flex-basis: 45%; /* Adjust the width of div5 as needed */
+  flex-basis: 45%; /* Adjust the width of the div as needed */
   list-style-type: none;
   background-color: #f2f2f2;
   border-radius: 40px;
@@ -221,4 +221,62 @@ footer {
   height: 25px;
   text-align: center;
   border-radius: 40px;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 767px) {
+  header {
+    padding: 5px; /* Decreased padding for mobile */
+    border-radius: 50px; /* Adjusted border-radius for mobile */
+  }
+
+  nav a {
+    padding: 0 20px; /* Adjusted padding for mobile */
+  }
+
+  .recipeCards .card-img-top {
+    height: 150px; /* Adjusted height for mobile */
+  }
+
+  .div1 img {
+    height: 200px; /* Adjusted height for mobile */
+  }
+
+  .div1,
+  .div2,
+  .div3 {
+    flex-basis: 100%; /* Adjusted width for mobile */
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 7px; /* Adjusted padding for tablet */
+  }
+
+  nav a {
+    padding: 0 40px; /* Adjusted padding for tablet */
+  }
+
+  .recipeCards .card-img-top {
+    height: 180px; /* Adjusted height for tablet */
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  header {
+    padding: 15px; /* Adjusted padding for desktop */
+  }
+
+  nav a {
+    padding: 0 60px; /* Adjusted padding for desktop */
+  }
+
+  .recipeCards .card-img-top {
+    height: 220px; /* Adjusted height for desktop */
+  }
 }
