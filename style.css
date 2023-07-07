@@ -83,7 +83,7 @@ body {
   }
   
   .recipeCards .card-img-top {
-    width: 96%;
+    width: 97%;
     height: 200px; /* Adjust the desired height */
     object-fit: cover;
     object-position: center;
@@ -214,4 +214,10 @@ a.viewButton:hover ,a.viewButton.active {
 
 .div5 ul {
   list-style-type: none;
+}
+
+#secondSection hr {
+  border: none;
+  border-top: 2px solid #85C1E9;
+  margin: 20px 0;
 }
