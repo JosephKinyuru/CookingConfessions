@@ -13,6 +13,7 @@ const initialize = () => {
           <img src="${recipe.picture}" class="card-img-top" alt="food picture">
           <div class="card-body">
             <h4 class="card-title">${recipe.name}</h4>
+            <hr style="width:230px;">
             <div class="icon-container">
                 <div>
                    <i class="la la-clock icon"><span class="icon-number">${recipe.time}</span></i>
