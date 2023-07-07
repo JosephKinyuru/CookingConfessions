@@ -3,6 +3,7 @@ Cooking confessions has a curated data set of different recipes which are cateho
 
 # How to launch project
 Within the github about section of the repository you can find a link that will direct you to the site.
+* The site might take some time to load after clicking the link if it fails to load you can fork the repository and use live server on the html file this will also take sometime to load due to render api
 
 # Author
 Joseph Kinyuru
