@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'Font Italiana';
+  src: url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+}
+
+@font-face {
+  font-family: 'Inria Serif';
+  src: url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
+}
+
+
+
 body {
-    font-family: 'Font Italiana', 'Kiwi Maru', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Font Italiana', 'Kiwi Maru', 'Arial Narrow', Arial, sans-serif; */
     margin: 0;
     padding: 0;
     background-color: #bdc3c7;
@@ -94,10 +106,12 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'Font Italiana';
   }
   
   .recipeCards .card-text {
     font-size: 14px;
+    font-family: 'Inria Serif';
   }
 
 a.viewButton{
@@ -144,6 +158,7 @@ a.viewButton:hover ,a.viewButton.active {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  font-family:'Inria Serif' ;
 }
 
 .div1 {
